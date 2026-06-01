@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>app_min_update
+        </key>
+        <value>1
+        </value>
+    </entry>
+    <entry>
+        <key>app_dialog_btn_ok
+        </key>
+        <value>ok
+        </value>
+    </entry>
+    <entry>
+        <key>app_dialog_title
+        </key>
+        <value>test
+        </value>
+    </entry>
+    <entry>
+        <key>app_dialog_desc
+        </key>
+        <value>test
+        </value>
+    </entry>
+    <entry>
+        <key>app_redirect_url
+        </key>
+        <value>https://play.google.com/store/apps/details?id=com.cbt.exam.browser
+        </value>
+    </entry>
+    <entry>
+        <key>app_verif_playstore
+        </key>
+        <value>off
+        </value>
+    </entry>
+    <entry>
+        <key>btn_beli
+        </key>
+        <value>off
+        </value>
+    </entry>
+    <entry>
+        <key>btn_beli_txt
+        </key>
+        <value>Remove ADS
+        </value>
+    </entry>
+    <entry>
+        <key>scanqr_camera
+        </key>
+        <value>camerax
+        </value>
+    </entry>
+</defaultsMap>

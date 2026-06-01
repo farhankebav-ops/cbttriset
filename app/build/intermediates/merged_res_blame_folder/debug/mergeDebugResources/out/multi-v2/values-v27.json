@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cbt.exam.browser.app-mergeDebugResources-2:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\Downloads\\cbt2-source\\app\\src\\main\\res\\values-v27\\styles.xml",
+                    "from": {
+                        "startLines": "2,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,837",
+                        "endLines": "13,26",
+                        "endColumns": "12,12",
+                        "endOffsets": "831,1669"
+                    },
+                    "to": {
+                        "startLines": "2,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,823",
+                        "endLines": "13,26",
+                        "endColumns": "12,12",
+                        "endOffsets": "818,1643"
+                    }
+                }
+            ]
+        }
+    ]
+}

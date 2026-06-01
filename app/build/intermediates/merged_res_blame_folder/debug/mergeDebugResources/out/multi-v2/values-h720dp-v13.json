@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cbt.exam.browser.app-mergeDebugResources-2:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\Downloads\\cbt2-source\\app\\src\\main\\res\\values-h720dp\\dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "65",
+                        "endOffsets": "118"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

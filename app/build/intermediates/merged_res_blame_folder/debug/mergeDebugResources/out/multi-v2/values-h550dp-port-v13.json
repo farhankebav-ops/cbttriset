@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cbt.exam.browser.app-mergeDebugResources-2:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\Downloads\\cbt2-source\\app\\src\\main\\res\\values-h550dp-port\\dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "64",
+                        "endOffsets": "117"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "64",
+                        "endOffsets": "115"
+                    }
+                }
+            ]
+        }
+    ]
+}

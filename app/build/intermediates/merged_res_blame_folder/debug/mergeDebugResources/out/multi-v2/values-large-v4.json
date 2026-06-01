@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cbt.exam.browser.app-mergeDebugResources-2:/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\Downloads\\cbt2-source\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "57,117,178,239,299,359,417",
+                        "endColumns": "58,59,59,58,58,56,56",
+                        "endOffsets": "111,172,233,293,353,411,469"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,174,234,293,352,409",
+                        "endColumns": "58,59,59,58,58,56,56",
+                        "endOffsets": "109,169,229,288,347,404,461"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\Downloads\\cbt2-source\\app\\src\\main\\res\\values-large\\styles.xml",
+                    "from": {
+                        "startLines": "2,4,6,8,10,12",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "57,182,319,454,591,734",
+                        "endLines": "3,5,7,9,11,13",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "176,313,448,585,728,883"
+                    },
+                    "to": {
+                        "startLines": "9,11,13,15,17,19",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "466,589,724,857,992,1133",
+                        "endLines": "10,12,14,16,18,20",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "584,719,852,987,1128,1281"
+                    }
+                }
+            ]
+        }
+    ]
+}

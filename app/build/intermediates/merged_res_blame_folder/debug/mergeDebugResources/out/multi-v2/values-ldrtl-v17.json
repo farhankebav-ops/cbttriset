@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cbt.exam.browser.app-mergeDebugResources-2:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\Downloads\\cbt2-source\\app\\src\\main\\res\\values-ldrtl\\drawables.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,186",
+                        "endColumns": "127,132",
+                        "endOffsets": "180,314"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,183",
+                        "endColumns": "127,132",
+                        "endOffsets": "178,311"
+                    }
+                }
+            ]
+        }
+    ]
+}

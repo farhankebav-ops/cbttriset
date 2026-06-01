@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="end|top"
+        android:height="200dp"
+        android:width="200dp"
+        android:top="16dp"
+        android:right="16dp">
+        <shape android:shape="oval">
+            <solid android:color="#31ffffff"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="start|center_vertical"
+        android:height="320dp"
+        android:width="320dp"
+        android:left="8dp">
+        <shape android:shape="oval">
+            <solid android:color="#00ffffff"/>
+        </shape>
+    </item>
+</layer-list>

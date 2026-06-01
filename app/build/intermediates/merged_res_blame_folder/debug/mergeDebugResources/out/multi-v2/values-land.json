@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cbt.exam.browser.app-mergeDebugResources-2:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\Downloads\\cbt2-source\\app\\src\\main\\res\\values-land\\styles.xml",
+                    "from": {
+                        "startLines": "2,6,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,250,843",
+                        "endLines": "5,14,17",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "244,837,1081"
+                    },
+                    "to": {
+                        "startLines": "24,28,37",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1556,1745,2329",
+                        "endLines": "27,36,39",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "1740,2324,2565"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\Downloads\\cbt2-source\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,128,200,269,318,363,410,486,561,627,695,766,839,909,979,1062,1153,1230,1299,1367",
+                        "endColumns": "69,70,67,47,43,45,74,73,64,66,69,71,68,68,81,89,75,67,66,77",
+                        "endOffsets": "122,194,263,312,357,404,480,555,621,689,760,833,903,973,1056,1147,1224,1293,1361,1440"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,196,264,312,356,402,477,551,616,683,753,825,894,963,1045,1135,1211,1279,1346",
+                        "endColumns": "69,70,67,47,43,45,74,73,64,66,69,71,68,68,81,89,75,67,66,77",
+                        "endOffsets": "120,191,259,307,351,397,472,546,611,678,748,820,889,958,1040,1130,1206,1274,1341,1419"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\Downloads\\cbt2-source\\app\\src\\main\\res\\values-land\\integers.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,123",
+                        "endColumns": "64,66",
+                        "endOffsets": "117,185"
+                    },
+                    "to": {
+                        "startLines": "22,23",
+                        "startColumns": "4,4",
+                        "startOffsets": "1424,1489",
+                        "endColumns": "64,66",
+                        "endOffsets": "1484,1551"
+                    }
+                }
+            ]
+        }
+    ]
+}
