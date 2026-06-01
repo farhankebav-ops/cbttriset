@@ -1,0 +1,70 @@
+package com.google.ads.mediation;
+
+import androidx.annotation.VisibleForTesting;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.formats.UnifiedNativeAd;
+import com.google.android.gms.ads.formats.zzg;
+import com.google.android.gms.ads.mediation.MediationNativeListener;
+import com.google.android.gms.internal.ads.zzbjd;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+@VisibleForTesting
+final class zze extends AdListener implements zzg, com.google.android.gms.ads.formats.zze, com.google.android.gms.ads.formats.zzd {
+
+    @VisibleForTesting
+    final AbstractAdViewAdapter zza;
+
+    @VisibleForTesting
+    final MediationNativeListener zzb;
+
+    public zze(AbstractAdViewAdapter abstractAdViewAdapter, MediationNativeListener mediationNativeListener) {
+        this.zza = abstractAdViewAdapter;
+        this.zzb = mediationNativeListener;
+    }
+
+    @Override // com.google.android.gms.ads.AdListener
+    public final void onAdClicked() {
+        this.zzb.onAdClicked(this.zza);
+    }
+
+    @Override // com.google.android.gms.ads.AdListener
+    public final void onAdClosed() {
+        this.zzb.onAdClosed(this.zza);
+    }
+
+    @Override // com.google.android.gms.ads.AdListener
+    public final void onAdFailedToLoad(LoadAdError loadAdError) {
+        this.zzb.onAdFailedToLoad(this.zza, loadAdError);
+    }
+
+    @Override // com.google.android.gms.ads.AdListener
+    public final void onAdImpression() {
+        this.zzb.onAdImpression(this.zza);
+    }
+
+    @Override // com.google.android.gms.ads.AdListener
+    public final void onAdOpened() {
+        this.zzb.onAdOpened(this.zza);
+    }
+
+    @Override // com.google.android.gms.ads.formats.zzg
+    public final void zza(UnifiedNativeAd unifiedNativeAd) {
+        this.zzb.onAdLoaded(this.zza, new zza(unifiedNativeAd));
+    }
+
+    @Override // com.google.android.gms.ads.formats.zze
+    public final void zzb(zzbjd zzbjdVar) {
+        this.zzb.zzc(this.zza, zzbjdVar);
+    }
+
+    @Override // com.google.android.gms.ads.formats.zzd
+    public final void zzc(zzbjd zzbjdVar, String str) {
+        this.zzb.zzd(this.zza, zzbjdVar, str);
+    }
+
+    @Override // com.google.android.gms.ads.AdListener
+    public final void onAdLoaded() {
+    }
+}

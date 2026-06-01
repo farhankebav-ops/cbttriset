@@ -1,0 +1,60 @@
+package com.google.android.gms.ads.internal.client;
+
+import android.content.Context;
+import android.os.RemoteException;
+import androidx.annotation.Nullable;
+import com.google.android.gms.dynamic.IObjectWrapper;
+import com.google.android.gms.dynamic.ObjectWrapper;
+import com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite.ModuleDescriptor;
+import com.google.android.gms.internal.ads.zzbeu;
+import com.google.android.gms.internal.ads.zzbrj;
+import com.google.android.gms.internal.ads.zzbwf;
+import java.util.Objects;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+final class zzae extends zzba {
+    final /* synthetic */ Context zza;
+    final /* synthetic */ zzbrj zzb;
+
+    public zzae(zzaz zzazVar, Context context, zzbrj zzbrjVar) {
+        this.zza = context;
+        this.zzb = zzbrjVar;
+        Objects.requireNonNull(zzazVar);
+    }
+
+    @Override // com.google.android.gms.ads.internal.client.zzba
+    @Nullable
+    public final /* bridge */ /* synthetic */ Object zza() {
+        zzaz.zzm(this.zza, "out_of_context_tester");
+        return null;
+    }
+
+    @Override // com.google.android.gms.ads.internal.client.zzba
+    @Nullable
+    public final /* bridge */ /* synthetic */ Object zzb() throws RemoteException {
+        Context context = this.zza;
+        IObjectWrapper iObjectWrapperWrap = ObjectWrapper.wrap(context);
+        zzbeu.zza(context);
+        if (((Boolean) zzbd.zzc().zzd(zzbeu.zzks)).booleanValue()) {
+            try {
+                return ((zzdx) com.google.android.gms.ads.internal.util.client.zzs.zza(context, "com.google.android.gms.ads.DynamiteOutOfContextTesterCreatorImpl", zzad.zza)).zze(iObjectWrapperWrap, this.zzb, ModuleDescriptor.MODULE_VERSION);
+            } catch (RemoteException | com.google.android.gms.ads.internal.util.client.zzr | NullPointerException e) {
+                zzbwf.zza(this.zza).zzh(e, "ClientApiBroker.getOutOfContextTester");
+            }
+        }
+        return null;
+    }
+
+    @Override // com.google.android.gms.ads.internal.client.zzba
+    @Nullable
+    public final /* bridge */ /* synthetic */ Object zzc(zzcr zzcrVar) throws RemoteException {
+        Context context = this.zza;
+        IObjectWrapper iObjectWrapperWrap = ObjectWrapper.wrap(context);
+        zzbeu.zza(context);
+        if (((Boolean) zzbd.zzc().zzd(zzbeu.zzks)).booleanValue()) {
+            return zzcrVar.zzq(iObjectWrapperWrap, this.zzb, ModuleDescriptor.MODULE_VERSION);
+        }
+        return null;
+    }
+}

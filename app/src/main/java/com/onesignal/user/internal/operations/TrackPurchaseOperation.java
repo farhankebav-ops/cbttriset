@@ -1,0 +1,135 @@
+package com.onesignal.user.internal.operations;
+
+import com.google.firebase.remoteconfig.RemoteConfigConstants;
+import com.onesignal.common.IDManager;
+import com.onesignal.common.modeling.Model;
+import com.onesignal.core.internal.operations.GroupComparisonType;
+import com.onesignal.core.internal.operations.Operation;
+import com.onesignal.user.internal.operations.impl.executors.UpdateUserOperationExecutor;
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import kotlin.jvm.internal.k;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes5.dex */
+public final class TrackPurchaseOperation extends Operation {
+    private final GroupComparisonType groupComparisonType;
+
+    public TrackPurchaseOperation() {
+        super(UpdateUserOperationExecutor.TRACK_PURCHASE);
+        this.groupComparisonType = GroupComparisonType.ALTER;
+    }
+
+    private final void setAmountSpent(BigDecimal bigDecimal) {
+        Model.setBigDecimalProperty$default(this, "amountSpent", bigDecimal, null, false, 12, null);
+    }
+
+    private final void setAppId(String str) {
+        Model.setStringProperty$default(this, RemoteConfigConstants.RequestFieldKey.APP_ID, str, null, false, 12, null);
+    }
+
+    private final void setOnesignalId(String str) {
+        Model.setStringProperty$default(this, "onesignalId", str, null, false, 12, null);
+    }
+
+    private final void setPurchases(List<PurchaseInfo> list) {
+        Model.setListProperty$default(this, "purchases", list, null, false, 12, null);
+    }
+
+    private final void setTreatNewAsExisting(boolean z2) {
+        Model.setBooleanProperty$default(this, "treatNewAsExisting", z2, null, false, 12, null);
+    }
+
+    @Override // com.onesignal.common.modeling.Model
+    public List<?> createListForProperty(String property, JSONArray jsonArray) throws JSONException {
+        k.e(property, "property");
+        k.e(jsonArray, "jsonArray");
+        if (!property.equals("purchases")) {
+            return null;
+        }
+        ArrayList arrayList = new ArrayList();
+        int length = jsonArray.length();
+        for (int i2 = 0; i2 < length; i2++) {
+            PurchaseInfo purchaseInfo = new PurchaseInfo();
+            JSONObject jSONObject = jsonArray.getJSONObject(i2);
+            k.d(jSONObject, "jsonArray.getJSONObject(item)");
+            purchaseInfo.initializeFromJson(jSONObject);
+            arrayList.add(purchaseInfo);
+        }
+        return arrayList;
+    }
+
+    public final BigDecimal getAmountSpent() {
+        return Model.getBigDecimalProperty$default(this, "amountSpent", null, 2, null);
+    }
+
+    public final String getAppId() {
+        return Model.getStringProperty$default(this, RemoteConfigConstants.RequestFieldKey.APP_ID, null, 2, null);
+    }
+
+    @Override // com.onesignal.core.internal.operations.Operation
+    public String getApplyToRecordId() {
+        return getOnesignalId();
+    }
+
+    @Override // com.onesignal.core.internal.operations.Operation
+    public boolean getCanStartExecute() {
+        return !IDManager.INSTANCE.isLocalId(getOnesignalId());
+    }
+
+    @Override // com.onesignal.core.internal.operations.Operation
+    public String getCreateComparisonKey() {
+        return "";
+    }
+
+    @Override // com.onesignal.core.internal.operations.Operation
+    public GroupComparisonType getGroupComparisonType() {
+        return this.groupComparisonType;
+    }
+
+    @Override // com.onesignal.core.internal.operations.Operation
+    public String getModifyComparisonKey() {
+        return getAppId() + ".User." + getOnesignalId();
+    }
+
+    public final String getOnesignalId() {
+        return Model.getStringProperty$default(this, "onesignalId", null, 2, null);
+    }
+
+    public final List<PurchaseInfo> getPurchases() {
+        return Model.getListProperty$default(this, "purchases", null, 2, null);
+    }
+
+    public final boolean getTreatNewAsExisting() {
+        return Model.getBooleanProperty$default(this, "treatNewAsExisting", null, 2, null);
+    }
+
+    @Override // com.onesignal.core.internal.operations.Operation
+    public void translateIds(Map<String, String> map) {
+        k.e(map, "map");
+        if (map.containsKey(getOnesignalId())) {
+            String str = map.get(getOnesignalId());
+            k.b(str);
+            setOnesignalId(str);
+        }
+    }
+
+    /* JADX WARN: 'this' call moved to the top of the method (can break code semantics) */
+    public TrackPurchaseOperation(String appId, String onesignalId, boolean z2, BigDecimal amountSpent, List<PurchaseInfo> purchases) {
+        this();
+        k.e(appId, "appId");
+        k.e(onesignalId, "onesignalId");
+        k.e(amountSpent, "amountSpent");
+        k.e(purchases, "purchases");
+        setAppId(appId);
+        setOnesignalId(onesignalId);
+        setTreatNewAsExisting(z2);
+        setAmountSpent(amountSpent);
+        setPurchases(purchases);
+    }
+}

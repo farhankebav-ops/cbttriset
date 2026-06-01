@@ -1,0 +1,18 @@
+package com.google.android.gms.internal.ads;
+
+import com.google.android.gms.appset.AppSetIdInfo;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+final /* synthetic */ class zzerk implements zzgtq {
+    static final /* synthetic */ zzerk zza = new zzerk();
+
+    private /* synthetic */ zzerk() {
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgtq
+    public final /* synthetic */ j2.q zza(Object obj) {
+        AppSetIdInfo appSetIdInfo = (AppSetIdInfo) obj;
+        return appSetIdInfo == null ? zzgui.zza(new zzero(null, -1)) : zzgui.zza(new zzero(appSetIdInfo.getId(), appSetIdInfo.getScope()));
+    }
+}

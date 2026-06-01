@@ -1,0 +1,37 @@
+package com.instagram.common.viewpoint.core;
+
+import android.text.TextUtils;
+import java.util.Arrays;
+
+/* JADX INFO: renamed from: com.facebook.ads.redexgen.X.59, reason: invalid class name */
+/* JADX INFO: loaded from: assets/audience_network.dex */
+public abstract /* synthetic */ class AnonymousClass59 {
+    public static byte[] A00;
+
+    static {
+        A01();
+    }
+
+    public static String A00(int i2, int i8, int i9) {
+        byte[] bArrCopyOfRange = Arrays.copyOfRange(A00, i2, i2 + i8);
+        for (int i10 = 0; i10 < bArrCopyOfRange.length; i10++) {
+            bArrCopyOfRange[i10] = (byte) ((bArrCopyOfRange[i10] - i9) - 104);
+        }
+        return new String(bArrCopyOfRange);
+    }
+
+    public static void A01() {
+        A00 = new byte[]{52, 64, 57, 56, 69, 54, 73, 69, 43, 28, 47, 43, -26, 45, 43, 43, 32, 21, 20};
+    }
+
+    public static /* synthetic */ boolean A02(String str) {
+        if (str == null) {
+            return false;
+        }
+        String strA01 = AbstractC1784iY.A01(str);
+        if (TextUtils.isEmpty(strA01)) {
+            return false;
+        }
+        return ((strA01.contains(A00(4, 4, 105)) && !strA01.contains(A00(8, 8, 79))) || strA01.contains(A00(0, 4, 100)) || strA01.contains(A00(16, 3, 64))) ? false : true;
+    }
+}

@@ -1,0 +1,23 @@
+package androidx.camera.core.impl.stabilization;
+
+import androidx.annotation.RestrictTo;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes.dex */
+@RestrictTo({RestrictTo.Scope.LIBRARY_GROUP})
+public class StabilizationMode {
+    public static final int OFF = 1;
+    public static final int ON = 2;
+    public static final int UNSPECIFIED = 0;
+
+    /* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+    @Retention(RetentionPolicy.SOURCE)
+    @RestrictTo({RestrictTo.Scope.LIBRARY_GROUP})
+    public @interface Mode {
+    }
+
+    private StabilizationMode() {
+    }
+}

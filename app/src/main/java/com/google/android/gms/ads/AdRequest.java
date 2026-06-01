@@ -1,0 +1,100 @@
+package com.google.android.gms.ads;
+
+import android.content.Context;
+import android.os.Bundle;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.gms.ads.internal.client.zzek;
+import com.google.android.gms.ads.mediation.MediationExtrasReceiver;
+import com.google.android.gms.ads.mediation.customevent.CustomEvent;
+import java.util.List;
+import java.util.Set;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public class AdRequest {
+
+    @NonNull
+    public static final String DEVICE_ID_EMULATOR = "B3EEABB8EE11C2BE770B684D95219ECB";
+    public static final int ERROR_CODE_APP_ID_MISSING = 8;
+    public static final int ERROR_CODE_INTERNAL_ERROR = 0;
+    public static final int ERROR_CODE_INVALID_AD_STRING = 11;
+    public static final int ERROR_CODE_INVALID_REQUEST = 1;
+    public static final int ERROR_CODE_MEDIATION_NO_FILL = 9;
+    public static final int ERROR_CODE_NETWORK_ERROR = 2;
+    public static final int ERROR_CODE_NO_FILL = 3;
+    public static final int ERROR_CODE_REQUEST_ID_MISMATCH = 10;
+    public static final int MAX_CONTENT_URL_LENGTH = 512;
+    protected final zzek zza;
+
+    /* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+    public static class Builder extends AbstractAdRequestBuilder<Builder> {
+        @NonNull
+        public AdRequest build() {
+            return new AdRequest(this);
+        }
+
+        @Override // com.google.android.gms.ads.AbstractAdRequestBuilder
+        @NonNull
+        public Builder self() {
+            return this;
+        }
+    }
+
+    public AdRequest(@NonNull AbstractAdRequestBuilder abstractAdRequestBuilder) {
+        this.zza = new zzek(abstractAdRequestBuilder.zza, null);
+    }
+
+    @Nullable
+    public String getAdString() {
+        return this.zza.zzn();
+    }
+
+    @NonNull
+    public String getContentUrl() {
+        return this.zza.zza();
+    }
+
+    @Nullable
+    @Deprecated
+    public <T extends CustomEvent> Bundle getCustomEventExtrasBundle(@NonNull Class<T> cls) {
+        return this.zza.zze(cls);
+    }
+
+    @NonNull
+    public Bundle getCustomTargeting() {
+        return this.zza.zzk();
+    }
+
+    @NonNull
+    public Set<String> getKeywords() {
+        return this.zza.zzc();
+    }
+
+    @NonNull
+    public List<String> getNeighboringContentUrls() {
+        return this.zza.zzb();
+    }
+
+    @Nullable
+    public <T extends MediationExtrasReceiver> Bundle getNetworkExtrasBundle(@NonNull Class<T> cls) {
+        return this.zza.zzd(cls);
+    }
+
+    public long getPlacementId() {
+        return this.zza.zzr();
+    }
+
+    @NonNull
+    public String getRequestAgent() {
+        return this.zza.zzg();
+    }
+
+    public boolean isTestDevice(@NonNull Context context) {
+        return this.zza.zzh(context);
+    }
+
+    public final zzek zza() {
+        return this.zza;
+    }
+}

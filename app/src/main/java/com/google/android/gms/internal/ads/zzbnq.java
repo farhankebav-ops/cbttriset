@@ -1,0 +1,20 @@
+package com.google.android.gms.internal.ads;
+
+import android.os.ParcelFileDescriptor;
+import java.util.Objects;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+final class zzbnq extends zzbnn {
+    final /* synthetic */ zzcca zza;
+
+    public zzbnq(zzbnr zzbnrVar, zzcca zzccaVar) {
+        this.zza = zzccaVar;
+        Objects.requireNonNull(zzbnrVar);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzbno
+    public final void zzb(ParcelFileDescriptor parcelFileDescriptor) {
+        this.zza.zzc(parcelFileDescriptor);
+    }
+}

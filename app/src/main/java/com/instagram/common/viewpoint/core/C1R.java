@@ -1,0 +1,10 @@
+package com.instagram.common.viewpoint.core;
+
+import android.os.Bundle;
+import com.instagram.common.viewpoint.core.C1S;
+
+/* JADX INFO: renamed from: com.facebook.ads.redexgen.X.1R, reason: invalid class name */
+/* JADX INFO: loaded from: assets/audience_network.dex */
+public interface C1R<T extends C1S> {
+    T A6X(Bundle bundle);
+}

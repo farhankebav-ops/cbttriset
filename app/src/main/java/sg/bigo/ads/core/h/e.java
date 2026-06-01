@@ -1,0 +1,65 @@
+package sg.bigo.ads.core.h;
+
+import android.content.Context;
+import android.util.Log;
+import android.view.MotionEvent;
+import android.webkit.WebView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import sg.bigo.ads.common.utils.u;
+
+/* JADX INFO: loaded from: classes6.dex */
+public class e extends WebView {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private a f17114a;
+    protected boolean j;
+
+    public interface a {
+        void a(MotionEvent motionEvent);
+    }
+
+    public e(Context context) {
+        super(context);
+        getSettings().setJavaScriptEnabled(true);
+        getSettings().setDomStorageEnabled(true);
+        getSettings().setMixedContentMode(0);
+    }
+
+    @Nullable
+    public static e a(@NonNull Context context) {
+        try {
+            return new e(context);
+        } catch (Exception e) {
+            sg.bigo.ads.core.d.b.a(3000, 10100, Log.getStackTraceString(e));
+            return null;
+        }
+    }
+
+    @Override // android.webkit.WebView
+    public void destroy() {
+        if (this.j) {
+            return;
+        }
+        this.j = true;
+        stopLoading();
+        u.b(this);
+        removeAllViews();
+        setWebChromeClient(null);
+        setWebViewClient(null);
+        super.destroy();
+    }
+
+    @Override // android.view.ViewGroup, android.view.View
+    public boolean dispatchTouchEvent(MotionEvent motionEvent) {
+        a aVar = this.f17114a;
+        if (aVar != null) {
+            aVar.a(motionEvent);
+        }
+        return super.dispatchTouchEvent(motionEvent);
+    }
+
+    public void setOnWebViewTouchListener(a aVar) {
+        this.f17114a = aVar;
+    }
+}

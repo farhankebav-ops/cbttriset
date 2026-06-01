@@ -1,0 +1,9 @@
+package com.instagram.common.viewpoint.core;
+
+import org.json.JSONObject;
+
+/* JADX INFO: renamed from: com.facebook.ads.redexgen.X.id, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: assets/audience_network.dex */
+public interface InterfaceC1789id extends MP {
+    void AAk(C6M c6m, US us, V4 v42, MX mx, JSONObject jSONObject, TF tf);
+}

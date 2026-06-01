@@ -1,0 +1,37 @@
+package androidx.constraintlayout.core.motion.utils;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract /* synthetic */ class h {
+    public static int a(String str) {
+        str.getClass();
+        switch (str) {
+            case "positiveCross":
+                return 309;
+            case "viewTransitionOnPositiveCross":
+                return 302;
+            case "triggerCollisionId":
+                return 307;
+            case "triggerID":
+                return 308;
+            case "negativeCross":
+                return 310;
+            case "triggerCollisionView":
+                return 306;
+            case "viewTransitionOnNegativeCross":
+                return 303;
+            case "CROSS":
+                return 312;
+            case "triggerSlack":
+                return 305;
+            case "viewTransitionOnCross":
+                return 301;
+            case "postLayout":
+                return 304;
+            case "triggerReceiver":
+                return 311;
+            default:
+                return -1;
+        }
+    }
+}

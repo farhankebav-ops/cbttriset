@@ -1,0 +1,32 @@
+package com.google.android.gms.measurement.internal;
+
+import com.google.android.gms.common.internal.Preconditions;
+import java.util.Objects;
+import java.util.concurrent.Callable;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+final class zzoz implements Callable {
+    final /* synthetic */ zzr zza;
+    final /* synthetic */ zzpg zzb;
+
+    public zzoz(zzpg zzpgVar, zzr zzrVar) {
+        this.zza = zzrVar;
+        Objects.requireNonNull(zzpgVar);
+        this.zzb = zzpgVar;
+    }
+
+    @Override // java.util.concurrent.Callable
+    public final /* bridge */ /* synthetic */ Object call() throws Exception {
+        zzr zzrVar = this.zza;
+        String str = (String) Preconditions.checkNotNull(zzrVar.zza);
+        zzpg zzpgVar = this.zzb;
+        zzjl zzjlVarZzB = zzpgVar.zzB(str);
+        zzjk zzjkVar = zzjk.ANALYTICS_STORAGE;
+        if (zzjlVarZzB.zzo(zzjkVar) && zzjl.zzf(zzrVar.zzs, 100).zzo(zzjkVar)) {
+            return zzpgVar.zzao(zzrVar).zzd();
+        }
+        zzpgVar.zzaV().zzk().zza("Analytics storage consent denied. Returning null app instance id");
+        return null;
+    }
+}

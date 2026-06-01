@@ -1,0 +1,54 @@
+package com.google.android.gms.internal.mlkit_vision_common;
+
+import androidx.core.location.LocationRequestCompat;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+public final class zzin {
+    private Long zza;
+    private zzio zzb;
+    private zzii zzc;
+    private Integer zzd;
+    private Integer zze;
+    private Integer zzf;
+    private Integer zzg;
+
+    public final zzin zzb(Long l) {
+        this.zza = Long.valueOf(l.longValue() & LocationRequestCompat.PASSIVE_INTERVAL);
+        return this;
+    }
+
+    public final zzin zzc(Integer num) {
+        this.zzd = Integer.valueOf(num.intValue() & Integer.MAX_VALUE);
+        return this;
+    }
+
+    public final zzin zzd(zzii zziiVar) {
+        this.zzc = zziiVar;
+        return this;
+    }
+
+    public final zzin zze(Integer num) {
+        this.zzf = Integer.valueOf(num.intValue() & Integer.MAX_VALUE);
+        return this;
+    }
+
+    public final zzin zzf(zzio zzioVar) {
+        this.zzb = zzioVar;
+        return this;
+    }
+
+    public final zzin zzg(Integer num) {
+        this.zze = Integer.valueOf(num.intValue() & Integer.MAX_VALUE);
+        return this;
+    }
+
+    public final zzin zzh(Integer num) {
+        this.zzg = Integer.valueOf(num.intValue() & Integer.MAX_VALUE);
+        return this;
+    }
+
+    public final zziq zzj() {
+        return new zziq(this, null);
+    }
+}

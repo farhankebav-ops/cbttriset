@@ -1,0 +1,29 @@
+package androidx.camera.extensions.internal.compat.quirk;
+
+import android.os.Build;
+import androidx.camera.core.impl.Quirk;
+import kotlin.jvm.internal.f;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes.dex */
+public final class EnsurePostviewFormatEquivalenceQuirk implements Quirk {
+    public static final Companion Companion = new Companion(null);
+
+    /* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+    public static final class Companion {
+        public /* synthetic */ Companion(f fVar) {
+            this();
+        }
+
+        public final boolean load() {
+            return Build.VERSION.SDK_INT == 34;
+        }
+
+        private Companion() {
+        }
+    }
+
+    public static final boolean load() {
+        return Companion.load();
+    }
+}

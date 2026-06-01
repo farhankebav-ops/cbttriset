@@ -1,0 +1,17 @@
+package com.google.android.gms.internal.measurement;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+final class zznh {
+    public static final Object zza(Object obj, Object obj2) {
+        zzng zzngVarZzc = (zzng) obj;
+        zzng zzngVar = (zzng) obj2;
+        if (!zzngVar.isEmpty()) {
+            if (!zzngVarZzc.zze()) {
+                zzngVarZzc = zzngVarZzc.zzc();
+            }
+            zzngVarZzc.zzb(zzngVar);
+        }
+        return zzngVarZzc;
+    }
+}

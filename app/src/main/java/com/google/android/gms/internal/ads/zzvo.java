@@ -1,0 +1,21 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.Objects;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+final class zzvo extends zzadp {
+    final /* synthetic */ zzvy zza;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public zzvo(zzvy zzvyVar, zzaed zzaedVar) {
+        super(zzaedVar);
+        Objects.requireNonNull(zzvyVar);
+        this.zza = zzvyVar;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzadp, com.google.android.gms.internal.ads.zzaed
+    public final long zza() {
+        return this.zza.zzQ();
+    }
+}

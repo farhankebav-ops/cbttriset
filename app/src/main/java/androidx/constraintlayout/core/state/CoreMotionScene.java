@@ -1,0 +1,17 @@
+package androidx.constraintlayout.core.state;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes.dex */
+public interface CoreMotionScene {
+    String getConstraintSet(int i2);
+
+    String getConstraintSet(String str);
+
+    String getTransition(String str);
+
+    void setConstraintSetContent(String str, String str2);
+
+    void setDebugName(String str);
+
+    void setTransitionContent(String str, String str2);
+}

@@ -1,0 +1,16 @@
+package com.google.android.gms.internal.ads;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+final class zzgqp implements Serializable, zzgmv {
+    public zzgqp(int i2) {
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgmv
+    public final /* bridge */ /* synthetic */ Object zza() {
+        return new ArrayList(2);
+    }
+}

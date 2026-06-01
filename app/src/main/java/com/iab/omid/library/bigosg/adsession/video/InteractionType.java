@@ -1,0 +1,20 @@
+package com.iab.omid.library.bigosg.adsession.video;
+
+import com.ironsource.C2318f4;
+
+/* JADX INFO: loaded from: classes3.dex */
+public enum InteractionType {
+    CLICK(C2318f4.f8523d),
+    INVITATION_ACCEPTED("invitationAccept");
+
+    String interactionType;
+
+    InteractionType(String str) {
+        this.interactionType = str;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return this.interactionType;
+    }
+}

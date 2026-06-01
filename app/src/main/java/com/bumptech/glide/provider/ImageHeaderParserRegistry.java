@@ -1,0 +1,21 @@
+package com.bumptech.glide.provider;
+
+import androidx.annotation.NonNull;
+import com.bumptech.glide.load.ImageHeaderParser;
+import java.util.ArrayList;
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public final class ImageHeaderParserRegistry {
+    private final List<ImageHeaderParser> parsers = new ArrayList();
+
+    public synchronized void add(@NonNull ImageHeaderParser imageHeaderParser) {
+        this.parsers.add(imageHeaderParser);
+    }
+
+    @NonNull
+    public synchronized List<ImageHeaderParser> getParsers() {
+        return this.parsers;
+    }
+}

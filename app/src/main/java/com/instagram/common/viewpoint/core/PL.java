@@ -1,0 +1,10 @@
+package com.instagram.common.viewpoint.core;
+
+import android.view.accessibility.AccessibilityEvent;
+
+/* JADX INFO: loaded from: assets/audience_network.dex */
+public class PL {
+    public abstract int A00(AccessibilityEvent accessibilityEvent);
+
+    public abstract void A01(AccessibilityEvent accessibilityEvent, int i2);
+}

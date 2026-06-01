@@ -1,0 +1,12 @@
+package androidx.work.impl.model;
+
+import kotlin.jvm.internal.k;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public final class SystemIdInfoKt {
+    public static final SystemIdInfo systemIdInfo(WorkGenerationalId generationalId, int i2) {
+        k.e(generationalId, "generationalId");
+        return new SystemIdInfo(generationalId.getWorkSpecId(), generationalId.getGeneration(), i2);
+    }
+}

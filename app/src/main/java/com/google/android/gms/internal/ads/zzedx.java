@@ -1,0 +1,18 @@
+package com.google.android.gms.internal.ads;
+
+import org.json.JSONObject;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+public final class zzedx {
+    public static final zzbqi zzd = new zzedw();
+    public final zzeed zza;
+    public final JSONObject zzb;
+    public final zzbxl zzc;
+
+    public zzedx(zzeed zzeedVar, JSONObject jSONObject, zzbxl zzbxlVar) {
+        this.zza = zzeedVar;
+        this.zzb = jSONObject;
+        this.zzc = zzbxlVar;
+    }
+}

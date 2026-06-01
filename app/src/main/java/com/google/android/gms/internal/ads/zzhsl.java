@@ -1,0 +1,20 @@
+package com.google.android.gms.internal.ads;
+
+import java.security.GeneralSecurityException;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+final class zzhsl implements zzhik {
+    final zzhik zza;
+    final zzhik zzb;
+
+    public /* synthetic */ zzhsl(zzhik zzhikVar, zzhik zzhikVar2, byte[] bArr) {
+        this.zza = zzhikVar;
+        this.zzb = zzhikVar2;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzhik
+    public final byte[] zza(byte[] bArr, int i2) throws GeneralSecurityException {
+        return bArr.length <= 64 ? this.zza.zza(bArr, i2) : this.zzb.zza(bArr, i2);
+    }
+}

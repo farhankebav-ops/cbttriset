@@ -1,0 +1,32 @@
+package com.bytedance.sdk.openadsdk.api.nativeAd;
+
+import android.view.View;
+import androidx.annotation.Nullable;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public interface PAGNativeAdData {
+
+    /* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+    public enum PAGNativeMediaType {
+        PAGNativeMediaTypeImage,
+        PAGNativeMediaTypeVideo
+    }
+
+    @Nullable
+    View getAdChoicesView();
+
+    View getAdLogoView();
+
+    String getButtonText();
+
+    String getDescription();
+
+    PAGImageItem getIcon();
+
+    PAGNativeMediaType getMediaType();
+
+    PAGMediaView getMediaView();
+
+    String getTitle();
+}

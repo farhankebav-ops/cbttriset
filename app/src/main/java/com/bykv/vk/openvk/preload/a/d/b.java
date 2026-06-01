@@ -1,0 +1,16 @@
+package com.bykv.vk.openvk.preload.a.d;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public enum b {
+    BEGIN_ARRAY,
+    END_ARRAY,
+    BEGIN_OBJECT,
+    END_OBJECT,
+    NAME,
+    STRING,
+    NUMBER,
+    BOOLEAN,
+    NULL,
+    END_DOCUMENT
+}

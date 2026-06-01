@@ -1,0 +1,30 @@
+package org.chromium.support_lib_boundary;
+
+import android.webkit.CookieManager;
+import android.webkit.GeolocationPermissions;
+import android.webkit.ServiceWorkerController;
+import android.webkit.ValueCallback;
+import android.webkit.WebStorage;
+import java.lang.reflect.InvocationHandler;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public interface ProfileBoundaryInterface {
+    void cancelPrefetch(String str);
+
+    void clearPrefetch(String str, ValueCallback<InvocationHandler> valueCallback);
+
+    CookieManager getCookieManager();
+
+    GeolocationPermissions getGeoLocationPermissions();
+
+    String getName();
+
+    ServiceWorkerController getServiceWorkerController();
+
+    WebStorage getWebStorage();
+
+    void prefetchUrl(String str, ValueCallback<InvocationHandler> valueCallback);
+
+    void prefetchUrl(String str, InvocationHandler invocationHandler, ValueCallback<InvocationHandler> valueCallback);
+}

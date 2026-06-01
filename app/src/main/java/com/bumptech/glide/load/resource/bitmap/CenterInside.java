@@ -1,0 +1,34 @@
+package com.bumptech.glide.load.resource.bitmap;
+
+import android.graphics.Bitmap;
+import androidx.annotation.NonNull;
+import com.bumptech.glide.load.Key;
+import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
+import java.security.MessageDigest;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public class CenterInside extends BitmapTransformation {
+    private static final String ID = "com.bumptech.glide.load.resource.bitmap.CenterInside";
+    private static final byte[] ID_BYTES = ID.getBytes(Key.CHARSET);
+
+    @Override // com.bumptech.glide.load.Key
+    public boolean equals(Object obj) {
+        return obj instanceof CenterInside;
+    }
+
+    @Override // com.bumptech.glide.load.Key
+    public int hashCode() {
+        return -670243078;
+    }
+
+    @Override // com.bumptech.glide.load.resource.bitmap.BitmapTransformation
+    public Bitmap transform(@NonNull BitmapPool bitmapPool, @NonNull Bitmap bitmap, int i2, int i8) {
+        return TransformationUtils.centerInside(bitmapPool, bitmap, i2, i8);
+    }
+
+    @Override // com.bumptech.glide.load.Key
+    public void updateDiskCacheKey(@NonNull MessageDigest messageDigest) {
+        messageDigest.update(ID_BYTES);
+    }
+}

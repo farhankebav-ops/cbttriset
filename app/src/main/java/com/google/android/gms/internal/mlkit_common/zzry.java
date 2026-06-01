@@ -1,0 +1,15 @@
+package com.google.android.gms.internal.mlkit_common;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+public interface zzry {
+    zzry zza(zzmv zzmvVar);
+
+    zzry zzb(zznc zzncVar);
+
+    zzry zzc(zzqt zzqtVar);
+
+    String zzd();
+
+    byte[] zze(int i2, boolean z2);
+}

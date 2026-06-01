@@ -1,0 +1,48 @@
+package com.bumptech.glide.signature;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.bumptech.glide.load.Key;
+import java.nio.ByteBuffer;
+import java.security.MessageDigest;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public class MediaStoreSignature implements Key {
+    private final long dateModified;
+
+    @NonNull
+    private final String mimeType;
+    private final int orientation;
+
+    public MediaStoreSignature(@Nullable String str, long j, int i2) {
+        this.mimeType = str == null ? "" : str;
+        this.dateModified = j;
+        this.orientation = i2;
+    }
+
+    @Override // com.bumptech.glide.load.Key
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        MediaStoreSignature mediaStoreSignature = (MediaStoreSignature) obj;
+        return this.dateModified == mediaStoreSignature.dateModified && this.orientation == mediaStoreSignature.orientation && this.mimeType.equals(mediaStoreSignature.mimeType);
+    }
+
+    @Override // com.bumptech.glide.load.Key
+    public int hashCode() {
+        int iHashCode = this.mimeType.hashCode() * 31;
+        long j = this.dateModified;
+        return ((iHashCode + ((int) (j ^ (j >>> 32)))) * 31) + this.orientation;
+    }
+
+    @Override // com.bumptech.glide.load.Key
+    public void updateDiskCacheKey(@NonNull MessageDigest messageDigest) {
+        messageDigest.update(ByteBuffer.allocate(12).putLong(this.dateModified).putInt(this.orientation).array());
+        messageDigest.update(this.mimeType.getBytes(Key.CHARSET));
+    }
+}

@@ -1,0 +1,35 @@
+package com.google.protobuf;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public final class b {
+    private static boolean ASSUME_ANDROID;
+    private static final boolean IS_ROBOLECTRIC;
+    private static final Class<?> MEMORY_CLASS = getClassForName("libcore.io.Memory");
+
+    static {
+        IS_ROBOLECTRIC = (ASSUME_ANDROID || getClassForName("org.robolectric.Robolectric") == null) ? false : true;
+    }
+
+    private b() {
+    }
+
+    private static <T> Class<T> getClassForName(String str) {
+        try {
+            return (Class<T>) Class.forName(str);
+        } catch (Throwable unused) {
+            return null;
+        }
+    }
+
+    public static Class<?> getMemoryClass() {
+        return MEMORY_CLASS;
+    }
+
+    public static boolean isOnAndroidDevice() {
+        if (ASSUME_ANDROID) {
+            return true;
+        }
+        return (MEMORY_CLASS == null || IS_ROBOLECTRIC) ? false : true;
+    }
+}

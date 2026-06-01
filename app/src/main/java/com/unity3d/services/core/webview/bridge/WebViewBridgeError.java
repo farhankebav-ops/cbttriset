@@ -1,0 +1,16 @@
+package com.unity3d.services.core.webview.bridge;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes5.dex */
+public enum WebViewBridgeError {
+    CLASS_NOT_FOUND,
+    CLASS_NOT_EXPOSED,
+    GETALLOWEDMETHODS_NOT_FOUND,
+    GETALLOWEDMETHODS_INVOCATION_FAILED,
+    METHOD_NOT_FOUND,
+    METHOD_UNALLOWED,
+    DATA_JSON_PARSE_FAILED,
+    DATA_GET_PARAMETER_VALUE_FAILED,
+    DATA_PARAMETER_NULL,
+    INVOCATION_FAILED
+}

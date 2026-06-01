@@ -1,0 +1,64 @@
+package com.unity3d.ads.core.domain.om;
+
+import android.content.Context;
+import com.unity3d.ads.core.data.repository.OpenMeasurementRepository;
+import com.unity3d.ads.core.data.repository.SessionRepository;
+import com.unity3d.ads.core.domain.SendDiagnosticEvent;
+import kotlin.jvm.internal.k;
+import x5.c;
+import x5.e;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes5.dex */
+public final class AndroidInitializeOMSDK implements InitializeOMSDK {
+    private final Context context;
+    private final OpenMeasurementRepository omRepository;
+    private final SendDiagnosticEvent sendDiagnosticEvent;
+    private final SessionRepository sessionRepository;
+
+    /* JADX INFO: renamed from: com.unity3d.ads.core.domain.om.AndroidInitializeOMSDK$invoke$1, reason: invalid class name */
+    /* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+    @e(c = "com.unity3d.ads.core.domain.om.AndroidInitializeOMSDK", f = "AndroidInitializeOMSDK.kt", l = {27}, m = "invoke")
+    public static final class AnonymousClass1 extends c {
+        long J$0;
+        Object L$0;
+        int label;
+        /* synthetic */ Object result;
+
+        public AnonymousClass1(v5.c<? super AnonymousClass1> cVar) {
+            super(cVar);
+        }
+
+        @Override // x5.a
+        public final Object invokeSuspend(Object obj) {
+            this.result = obj;
+            this.label |= Integer.MIN_VALUE;
+            return AndroidInitializeOMSDK.this.invoke(this);
+        }
+    }
+
+    public AndroidInitializeOMSDK(Context context, SendDiagnosticEvent sendDiagnosticEvent, SessionRepository sessionRepository, OpenMeasurementRepository omRepository) {
+        k.e(context, "context");
+        k.e(sendDiagnosticEvent, "sendDiagnosticEvent");
+        k.e(sessionRepository, "sessionRepository");
+        k.e(omRepository, "omRepository");
+        this.context = context;
+        this.sendDiagnosticEvent = sendDiagnosticEvent;
+        this.sessionRepository = sessionRepository;
+        this.omRepository = omRepository;
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:7:0x0017  */
+    @Override // com.unity3d.ads.core.domain.om.InitializeOMSDK
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public java.lang.Object invoke(v5.c<? super q5.x> r18) throws java.lang.Throwable {
+        /*
+            Method dump skipped, instruction units count: 211
+            To view this dump change 'Code comments level' option to 'DEBUG'
+        */
+        throw new UnsupportedOperationException("Method not decompiled: com.unity3d.ads.core.domain.om.AndroidInitializeOMSDK.invoke(v5.c):java.lang.Object");
+    }
+}

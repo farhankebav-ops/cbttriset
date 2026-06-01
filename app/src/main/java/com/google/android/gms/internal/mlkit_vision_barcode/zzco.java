@@ -1,0 +1,30 @@
+package com.google.android.gms.internal.mlkit_vision_barcode;
+
+import java.io.Serializable;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+final class zzco extends zzbs implements Serializable {
+    final Object zza;
+    final Object zzb;
+
+    public zzco(Object obj, Object obj2) {
+        this.zza = obj;
+        this.zzb = obj2;
+    }
+
+    @Override // com.google.android.gms.internal.mlkit_vision_barcode.zzbs, java.util.Map.Entry
+    public final Object getKey() {
+        return this.zza;
+    }
+
+    @Override // com.google.android.gms.internal.mlkit_vision_barcode.zzbs, java.util.Map.Entry
+    public final Object getValue() {
+        return this.zzb;
+    }
+
+    @Override // com.google.android.gms.internal.mlkit_vision_barcode.zzbs, java.util.Map.Entry
+    public final Object setValue(Object obj) {
+        throw new UnsupportedOperationException();
+    }
+}

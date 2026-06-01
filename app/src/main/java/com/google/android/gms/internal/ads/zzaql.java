@@ -1,0 +1,62 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+public final class zzaql {
+    protected static final Comparator zza = new zzaqk();
+    private final List zzb = new ArrayList();
+    private final List zzc = new ArrayList(64);
+    private int zzd = 0;
+
+    public zzaql(int i2) {
+    }
+
+    private final synchronized void zzc() {
+        while (this.zzd > 4096) {
+            byte[] bArr = (byte[]) this.zzb.remove(0);
+            this.zzc.remove(bArr);
+            this.zzd -= bArr.length;
+        }
+    }
+
+    public final synchronized byte[] zza(int i2) {
+        int i8 = 0;
+        while (true) {
+            List list = this.zzc;
+            if (i8 >= list.size()) {
+                return new byte[i2];
+            }
+            byte[] bArr = (byte[]) list.get(i8);
+            int length = bArr.length;
+            if (length >= i2) {
+                this.zzd -= length;
+                list.remove(i8);
+                this.zzb.remove(bArr);
+                return bArr;
+            }
+            i8++;
+        }
+    }
+
+    public final synchronized void zzb(byte[] bArr) {
+        if (bArr != null) {
+            int length = bArr.length;
+            if (length <= 4096) {
+                this.zzb.add(bArr);
+                List list = this.zzc;
+                int iBinarySearch = Collections.binarySearch(list, bArr, zza);
+                if (iBinarySearch < 0) {
+                    iBinarySearch = (-iBinarySearch) - 1;
+                }
+                list.add(iBinarySearch, bArr);
+                this.zzd += length;
+                zzc();
+            }
+        }
+    }
+}

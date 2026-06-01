@@ -1,0 +1,28 @@
+package com.bumptech.glide.request.transition;
+
+import android.view.View;
+import com.bumptech.glide.request.transition.Transition;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public class ViewPropertyTransition<R> implements Transition<R> {
+    private final Animator animator;
+
+    /* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+    public interface Animator {
+        void animate(View view);
+    }
+
+    public ViewPropertyTransition(Animator animator) {
+        this.animator = animator;
+    }
+
+    @Override // com.bumptech.glide.request.transition.Transition
+    public boolean transition(R r7, Transition.ViewAdapter viewAdapter) {
+        if (viewAdapter.getView() == null) {
+            return false;
+        }
+        this.animator.animate(viewAdapter.getView());
+        return false;
+    }
+}

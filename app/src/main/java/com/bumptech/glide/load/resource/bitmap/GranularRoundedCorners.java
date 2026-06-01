@@ -1,0 +1,54 @@
+package com.bumptech.glide.load.resource.bitmap;
+
+import android.graphics.Bitmap;
+import androidx.annotation.NonNull;
+import com.bumptech.glide.load.Key;
+import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
+import com.bumptech.glide.util.Util;
+import java.nio.ByteBuffer;
+import java.security.MessageDigest;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public final class GranularRoundedCorners extends BitmapTransformation {
+    private static final String ID = "com.bumptech.glide.load.resource.bitmap.GranularRoundedCorners";
+    private static final byte[] ID_BYTES = ID.getBytes(Key.CHARSET);
+    private final float bottomLeft;
+    private final float bottomRight;
+    private final float topLeft;
+    private final float topRight;
+
+    public GranularRoundedCorners(float f4, float f8, float f9, float f10) {
+        this.topLeft = f4;
+        this.topRight = f8;
+        this.bottomRight = f9;
+        this.bottomLeft = f10;
+    }
+
+    @Override // com.bumptech.glide.load.Key
+    public boolean equals(Object obj) {
+        if (obj instanceof GranularRoundedCorners) {
+            GranularRoundedCorners granularRoundedCorners = (GranularRoundedCorners) obj;
+            if (this.topLeft == granularRoundedCorners.topLeft && this.topRight == granularRoundedCorners.topRight && this.bottomRight == granularRoundedCorners.bottomRight && this.bottomLeft == granularRoundedCorners.bottomLeft) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override // com.bumptech.glide.load.Key
+    public int hashCode() {
+        return Util.hashCode(this.bottomLeft, Util.hashCode(this.bottomRight, Util.hashCode(this.topRight, Util.hashCode(-2013597734, Util.hashCode(this.topLeft)))));
+    }
+
+    @Override // com.bumptech.glide.load.resource.bitmap.BitmapTransformation
+    public Bitmap transform(@NonNull BitmapPool bitmapPool, @NonNull Bitmap bitmap, int i2, int i8) {
+        return TransformationUtils.roundedCorners(bitmapPool, bitmap, this.topLeft, this.topRight, this.bottomRight, this.bottomLeft);
+    }
+
+    @Override // com.bumptech.glide.load.Key
+    public void updateDiskCacheKey(@NonNull MessageDigest messageDigest) {
+        messageDigest.update(ID_BYTES);
+        messageDigest.update(ByteBuffer.allocate(16).putFloat(this.topLeft).putFloat(this.topRight).putFloat(this.bottomRight).putFloat(this.bottomLeft).array());
+    }
+}

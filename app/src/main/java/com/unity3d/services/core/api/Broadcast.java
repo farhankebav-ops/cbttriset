@@ -1,0 +1,45 @@
+package com.unity3d.services.core.api;
+
+import com.unity3d.services.core.broadcast.BroadcastError;
+import com.unity3d.services.core.broadcast.BroadcastMonitor;
+import com.unity3d.services.core.webview.bridge.WebViewCallback;
+import com.unity3d.services.core.webview.bridge.WebViewExposed;
+import org.json.JSONArray;
+import org.json.JSONException;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes5.dex */
+public class Broadcast {
+    @WebViewExposed
+    public static void addBroadcastListener(String str, JSONArray jSONArray, WebViewCallback webViewCallback) {
+        addBroadcastListener(str, null, jSONArray, webViewCallback);
+    }
+
+    @WebViewExposed
+    public static void removeAllBroadcastListeners(WebViewCallback webViewCallback) {
+        BroadcastMonitor.getInstance().removeAllBroadcastListeners();
+        webViewCallback.invoke(new Object[0]);
+    }
+
+    @WebViewExposed
+    public static void removeBroadcastListener(String str, WebViewCallback webViewCallback) {
+        BroadcastMonitor.getInstance().removeBroadcastListener(str);
+        webViewCallback.invoke(new Object[0]);
+    }
+
+    @WebViewExposed
+    public static void addBroadcastListener(String str, String str2, JSONArray jSONArray, WebViewCallback webViewCallback) {
+        try {
+            if (jSONArray.length() > 0) {
+                String[] strArr = new String[jSONArray.length()];
+                for (int i2 = 0; i2 < jSONArray.length(); i2++) {
+                    strArr[i2] = jSONArray.getString(i2);
+                }
+                BroadcastMonitor.getInstance().addBroadcastListener(str, str2, strArr);
+            }
+            webViewCallback.invoke(new Object[0]);
+        } catch (JSONException unused) {
+            webViewCallback.error(BroadcastError.JSON_ERROR, new Object[0]);
+        }
+    }
+}

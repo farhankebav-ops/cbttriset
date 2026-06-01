@@ -1,0 +1,16 @@
+package sg.bigo.ads.ad.interstitial.c;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+/* JADX INFO: loaded from: classes6.dex */
+public final class q extends k {
+    public q(@NonNull sg.bigo.ads.ad.b.c cVar, int i2, @NonNull sg.bigo.ads.api.a.m mVar, @Nullable sg.bigo.ads.ad.interstitial.e.c cVar2) {
+        super(cVar, i2, mVar, cVar2);
+    }
+
+    @Override // sg.bigo.ads.ad.interstitial.c.a
+    public final boolean g() {
+        return true;
+    }
+}

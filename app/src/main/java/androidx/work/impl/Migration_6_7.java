@@ -1,0 +1,21 @@
+package androidx.work.impl;
+
+import androidx.room.migration.Migration;
+import androidx.sqlite.db.SupportSQLiteDatabase;
+import kotlin.jvm.internal.k;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public final class Migration_6_7 extends Migration {
+    public static final Migration_6_7 INSTANCE = new Migration_6_7();
+
+    private Migration_6_7() {
+        super(6, 7);
+    }
+
+    @Override // androidx.room.migration.Migration
+    public void migrate(SupportSQLiteDatabase db) {
+        k.e(db, "db");
+        db.execSQL("\n    CREATE TABLE IF NOT EXISTS `WorkProgress` (`work_spec_id` TEXT NOT NULL, `progress`\n    BLOB NOT NULL, PRIMARY KEY(`work_spec_id`), FOREIGN KEY(`work_spec_id`)\n    REFERENCES `WorkSpec`(`id`) ON UPDATE CASCADE ON DELETE CASCADE )\n    ");
+    }
+}

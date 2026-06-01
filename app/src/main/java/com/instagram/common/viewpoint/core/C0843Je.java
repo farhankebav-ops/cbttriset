@@ -1,0 +1,73 @@
+package com.instagram.common.viewpoint.core;
+
+import android.text.TextUtils;
+import java.util.Arrays;
+
+/* JADX INFO: renamed from: com.facebook.ads.redexgen.X.Je, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: assets/audience_network.dex */
+public class C0843Je implements ZY {
+    public static byte[] A01;
+    public final /* synthetic */ JU A00;
+
+    static {
+        A01();
+    }
+
+    public static String A00(int i2, int i8, int i9) {
+        byte[] bArrCopyOfRange = Arrays.copyOfRange(A01, i2, i2 + i8);
+        for (int i10 = 0; i10 < bArrCopyOfRange.length; i10++) {
+            bArrCopyOfRange[i10] = (byte) ((bArrCopyOfRange[i10] - i9) - 104);
+        }
+        return new String(bArrCopyOfRange);
+    }
+
+    public static void A01() {
+        A01 = new byte[]{73, 71, 57, 70, 51, 66, 53, 74, 61, 59, 53, 72, 61, 67, 66, 51, 61, 53, 54};
+    }
+
+    public C0843Je(JU ju) {
+        this.A00 = ju;
+    }
+
+    @Override // com.instagram.common.viewpoint.core.ZY
+    public final void AES(String str) {
+        this.A00.A0X = false;
+        this.A00.A0K.setProgress(100);
+        XP.A0L(this.A00.A0K, 8);
+        if (this.A00.A0H.A1d() && this.A00.A0L != null) {
+            String strA0y = this.A00.A0H.A0y();
+            if (!TextUtils.isEmpty(strA0y)) {
+                this.A00.A0L.loadUrl(strA0y);
+            }
+        }
+    }
+
+    @Override // com.instagram.common.viewpoint.core.ZY
+    public final void AEU(String str) {
+        this.A00.A0X = true;
+        XP.A0L(this.A00.A0K, 0);
+        this.A00.A0J.setUrl(str);
+        if (!this.A00.A0V && this.A00.A01 > 1) {
+            this.A00.A0V = true;
+            this.A00.A0h(A00(0, 19, 108));
+        }
+        JU.A03(this.A00);
+    }
+
+    @Override // com.instagram.common.viewpoint.core.ZY
+    public final void AEq(int i2) {
+        if (this.A00.A0X) {
+            this.A00.A0K.setProgress(i2);
+        }
+    }
+
+    @Override // com.instagram.common.viewpoint.core.ZY
+    public final void AEt(String str) {
+        this.A00.A0J.setTitle(str);
+    }
+
+    @Override // com.instagram.common.viewpoint.core.ZY
+    public final void AEw() {
+        this.A00.A0N.A0D().ACf(14);
+    }
+}

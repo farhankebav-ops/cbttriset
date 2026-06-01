@@ -1,0 +1,6 @@
+package com.instagram.common.viewpoint.core;
+
+/* JADX INFO: loaded from: assets/audience_network.dex */
+public interface AN {
+    void ADL(AO ao, long j, long j3);
+}

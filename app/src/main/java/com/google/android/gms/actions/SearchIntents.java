@@ -1,0 +1,17 @@
+package com.google.android.gms.actions;
+
+import androidx.annotation.NonNull;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public class SearchIntents {
+
+    @NonNull
+    public static final String ACTION_SEARCH = "com.google.android.gms.actions.SEARCH_ACTION";
+
+    @NonNull
+    public static final String EXTRA_QUERY = "query";
+
+    private SearchIntents() {
+    }
+}

@@ -1,0 +1,39 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.Objects;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+public final class zzgyv extends zzgxb {
+    private final zzgyu zza;
+
+    private zzgyv(zzgyu zzgyuVar) {
+        this.zza = zzgyuVar;
+    }
+
+    public static zzgyv zzb(zzgyu zzgyuVar) {
+        return new zzgyv(zzgyuVar);
+    }
+
+    public final boolean equals(Object obj) {
+        return (obj instanceof zzgyv) && ((zzgyv) obj).zza == this.zza;
+    }
+
+    public final int hashCode() {
+        return Objects.hash(zzgyv.class, this.zza);
+    }
+
+    public final String toString() {
+        String string = this.zza.toString();
+        return a1.a.s(new StringBuilder(string.length() + 39), "ChaCha20Poly1305 Parameters (variant: ", string, ")");
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgwj
+    public final boolean zza() {
+        return this.zza != zzgyu.zzc;
+    }
+
+    public final zzgyu zzc() {
+        return this.zza;
+    }
+}

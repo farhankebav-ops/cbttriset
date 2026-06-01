@@ -1,0 +1,15 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.Objects;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+final class zzdym extends com.google.android.gms.ads.internal.client.zzdm {
+    public zzdym(zzdyo zzdyoVar) {
+        Objects.requireNonNull(zzdyoVar);
+    }
+
+    @Override // com.google.android.gms.ads.internal.client.zzdn
+    public final void zze(com.google.android.gms.ads.internal.client.zze zzeVar) {
+    }
+}

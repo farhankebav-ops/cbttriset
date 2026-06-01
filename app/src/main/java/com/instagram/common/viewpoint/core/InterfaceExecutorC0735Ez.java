@@ -1,0 +1,11 @@
+package com.instagram.common.viewpoint.core;
+
+import com.facebook.video.heroplayer.exocustom.MetaExoPlayerCustomization;
+import java.util.concurrent.Executor;
+
+/* JADX INFO: renamed from: com.facebook.ads.redexgen.X.Ez, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: assets/audience_network.dex */
+@MetaExoPlayerCustomization(type = {"MERGED"}, value = "https://github.com/androidx/media/pull/1754")
+public interface InterfaceExecutorC0735Ez extends Executor {
+    void AGr();
+}

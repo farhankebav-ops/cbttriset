@@ -1,0 +1,36 @@
+package com.google.firebase.crashlytics.internal.stacktrace;
+
+import androidx.annotation.Nullable;
+import java.util.Stack;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+public class TrimmedThrowableData {
+
+    @Nullable
+    public final TrimmedThrowableData cause;
+    public final String className;
+    public final String localizedMessage;
+    public final StackTraceElement[] stacktrace;
+
+    private TrimmedThrowableData(String str, String str2, StackTraceElement[] stackTraceElementArr, @Nullable TrimmedThrowableData trimmedThrowableData) {
+        this.localizedMessage = str;
+        this.className = str2;
+        this.stacktrace = stackTraceElementArr;
+        this.cause = trimmedThrowableData;
+    }
+
+    public static TrimmedThrowableData makeTrimmedThrowableData(Throwable th, StackTraceTrimmingStrategy stackTraceTrimmingStrategy) {
+        Stack stack = new Stack();
+        while (th != null) {
+            stack.push(th);
+            th = th.getCause();
+        }
+        TrimmedThrowableData trimmedThrowableData = null;
+        while (!stack.isEmpty()) {
+            Throwable th2 = (Throwable) stack.pop();
+            trimmedThrowableData = new TrimmedThrowableData(th2.getLocalizedMessage(), th2.getClass().getName(), stackTraceTrimmingStrategy.getTrimmedStackTrace(th2.getStackTrace()), trimmedThrowableData);
+        }
+        return trimmedThrowableData;
+    }
+}

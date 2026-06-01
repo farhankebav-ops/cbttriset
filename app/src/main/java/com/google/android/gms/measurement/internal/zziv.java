@@ -1,0 +1,27 @@
+package com.google.android.gms.measurement.internal;
+
+import android.os.Bundle;
+import java.util.Objects;
+import java.util.concurrent.Callable;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+final class zziv implements Callable {
+    final /* synthetic */ zzr zza;
+    final /* synthetic */ Bundle zzb;
+    final /* synthetic */ zzjd zzc;
+
+    public zziv(zzjd zzjdVar, zzr zzrVar, Bundle bundle) {
+        this.zza = zzrVar;
+        this.zzb = bundle;
+        Objects.requireNonNull(zzjdVar);
+        this.zzc = zzjdVar;
+    }
+
+    @Override // java.util.concurrent.Callable
+    public final /* bridge */ /* synthetic */ Object call() throws Exception {
+        zzjd zzjdVar = this.zzc;
+        zzjdVar.zzL().zzZ();
+        return zzjdVar.zzL().zzaq(this.zza, this.zzb);
+    }
+}

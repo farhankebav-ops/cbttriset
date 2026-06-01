@@ -1,0 +1,31 @@
+package com.bumptech.glide.load.data;
+
+import android.content.res.AssetFileDescriptor;
+import android.content.res.AssetManager;
+import androidx.annotation.NonNull;
+import java.io.IOException;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes3.dex */
+public class FileDescriptorAssetPathFetcher extends AssetPathFetcher<AssetFileDescriptor> {
+    public FileDescriptorAssetPathFetcher(AssetManager assetManager, String str) {
+        super(assetManager, str);
+    }
+
+    @Override // com.bumptech.glide.load.data.DataFetcher
+    @NonNull
+    public Class<AssetFileDescriptor> getDataClass() {
+        return AssetFileDescriptor.class;
+    }
+
+    @Override // com.bumptech.glide.load.data.AssetPathFetcher
+    public void close(AssetFileDescriptor assetFileDescriptor) throws IOException {
+        assetFileDescriptor.close();
+    }
+
+    /* JADX WARN: Can't rename method to resolve collision */
+    @Override // com.bumptech.glide.load.data.AssetPathFetcher
+    public AssetFileDescriptor loadResource(AssetManager assetManager, String str) throws IOException {
+        return assetManager.openFd(str);
+    }
+}

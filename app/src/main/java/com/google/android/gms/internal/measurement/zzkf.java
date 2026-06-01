@@ -1,0 +1,17 @@
+package com.google.android.gms.internal.measurement;
+
+/* JADX INFO: compiled from: r8-map-id-84874db269549a40c0b5c7061a31fb3953e4b1b5018e77414ceb6004f20237e9 */
+/* JADX INFO: loaded from: classes4.dex */
+final class zzkf extends zzkm {
+    public zzkf(zzkg zzkgVar, String str, String str2, boolean z2) {
+        super(zzkgVar, str, str2, true, null);
+    }
+
+    @Override // com.google.android.gms.internal.measurement.zzkm
+    public final /* bridge */ /* synthetic */ Object zza(Object obj) {
+        if (obj instanceof String) {
+            return (String) obj;
+        }
+        return null;
+    }
+}
