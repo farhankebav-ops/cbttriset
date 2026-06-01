@@ -1,0 +1,1905 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cbt.exam.browser"
+4    platformBuildVersionCode="36"
+5    platformBuildVersionName="16"
+6    android:compileSdkVersion="36"
+7    android:compileSdkVersionCodename="16"
+8    android:requiredSplitTypes="base__abi,base__density"
+9    android:splitTypes=""
+10    android:versionCode="57"
+11    android:versionName="6.6" >
+12
+13    <uses-sdk
+13-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:11:5-13:40
+14        android:minSdkVersion="23"
+14-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:12:9-35
+15        android:targetSdkVersion="36" />
+15-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:13:9-38
+16
+17    <uses-feature
+17-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:14:5-16:35
+18        android:name="android.hardware.camera"
+18-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:15:9-47
+19        android:required="false" />
+19-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:16:9-33
+20
+21    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+21-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:17:5-78
+21-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:17:22-76
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:18:5-66
+22-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:18:22-64
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:19:5-78
+23-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:19:22-76
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:20:5-75
+24-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:20:22-73
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:21:5-64
+25-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:21:22-62
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:22:5-67
+26-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:22:22-65
+27
+28    <queries>
+28-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:23:5-55:15
+29        <intent>
+29-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:24:9-27:18
+30            <action android:name="android.intent.action.VIEW" />
+30-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:13-64
+30-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:21-62
+31
+32            <data android:scheme="https" />
+32-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+32-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:19-41
+33        </intent>
+34        <intent>
+34-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:28:9-30:18
+35            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+35-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:29:13-85
+35-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:29:21-83
+36        </intent>
+37
+38        <package android:name="com.facebook.katana" />
+38-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:31:9-54
+38-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:31:18-52
+39
+40        <intent>
+40-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:32:9-36:18
+41            <action android:name="android.intent.action.VIEW" />
+41-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:13-64
+41-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:21-62
+42
+43            <category android:name="android.intent.category.BROWSABLE" />
+43-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:34:13-73
+43-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:34:23-71
+44
+45            <data android:scheme="https" />
+45-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+45-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:19-41
+46        </intent>
+47        <intent>
+47-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:37:9-39:18
+48            <action android:name="android.support.customtabs.action.CustomTabsService" />
+48-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:38:13-89
+48-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:38:21-87
+49        </intent>
+50        <intent>
+50-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:40:9-43:18
+51            <action android:name="android.intent.action.INSERT" />
+51-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:41:13-66
+51-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:41:21-64
+52
+53            <data android:mimeType="vnd.android.cursor.dir/event" />
+53-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+53-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:42:19-66
+54        </intent>
+55        <intent>
+55-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:44:9-47:18
+56            <action android:name="android.intent.action.VIEW" />
+56-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:13-64
+56-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:21-62
+57
+58            <data android:scheme="sms" />
+58-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+58-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:19-41
+59        </intent>
+60        <intent>
+60-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:48:9-51:18
+61            <action android:name="android.intent.action.DIAL" />
+61-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:49:13-64
+61-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:49:21-62
+62
+63            <data android:path="tel:" />
+63-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+63-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:50:19-38
+64        </intent>
+65        <intent>
+65-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:52:9-54:18
+66            <action android:name="com.attribution.REFERRAL_PROVIDER" />
+66-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:53:13-71
+66-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:53:21-69
+67        </intent>
+68    </queries>
+69
+70    <permission
+70-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:56:5-58:46
+71        android:name="com.cbt.exam.browser.permission.C2D_MESSAGE"
+71-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:57:9-67
+72        android:protectionLevel="signature" />
+72-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:58:9-44
+73
+74    <uses-permission android:name="com.cbt.exam.browser.permission.C2D_MESSAGE" />
+74-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:59:5-82
+74-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:59:22-80
+75    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+75-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:60:5-76
+75-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:60:22-74
+76    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+76-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:61:5-81
+76-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:61:22-79
+77    <uses-permission android:name="android.permission.VIBRATE" />
+77-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:62:5-65
+77-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:62:22-63
+78    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+78-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:63:5-80
+78-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:63:22-78
+79    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+79-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:64:5-85
+79-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:64:22-83
+80    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+80-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:65:5-86
+80-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:65:22-84
+81    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+81-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:66:5-80
+81-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:66:22-78
+82    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+82-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:67:5-82
+82-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:67:22-80
+83    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+83-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:68:5-87
+83-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:68:22-85
+84    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+84-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:69:5-91
+84-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:69:22-89
+85    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+85-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:70:5-83
+85-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:70:22-81
+86    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+86-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:71:5-82
+86-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:71:22-80
+87    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+87-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:72:5-90
+87-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:72:22-88
+88    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+88-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:73:5-91
+88-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:73:22-89
+89    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+89-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:74:5-92
+89-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:74:22-90
+90    <uses-permission android:name="android.permission.READ_APP_BADGE" />
+90-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:75:5-72
+90-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:75:22-70
+91    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+91-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:76:5-81
+91-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:76:22-79
+92    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+92-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:77:5-82
+92-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:77:22-80
+93    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+93-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:78:5-87
+93-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:78:22-85
+94    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+94-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:79:5-88
+94-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:79:22-86
+95    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+95-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:80:5-109
+95-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:80:22-107
+96    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+96-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:81:5-87
+96-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:81:22-85
+97    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+97-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:82:5-81
+97-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:82:22-79
+98    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+98-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:83:5-82
+98-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:83:22-80
+99    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+99-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:84:5-76
+99-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:84:22-74
+100
+101    <permission
+101-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:85:5-87:46
+102        android:name="com.cbt.exam.browser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+102-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:86:9-85
+103        android:protectionLevel="signature" />
+103-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:87:9-44
+104
+105    <uses-permission android:name="com.cbt.exam.browser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+105-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:88:5-100
+105-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:88:22-98
+106    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+106-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:884:5-72
+106-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:884:22-70
+107
+108    <application
+108-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:89:5-883:19
+109        android:name="com.cbt.exam.browser.activity.MyApplication"
+109-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:93:9-67
+110        android:allowBackup="true"
+110-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:94:9-35
+111        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+111-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:103:9-77
+112        android:dataExtractionRules="@xml/data_extraction_rules"
+112-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:104:9-65
+113        android:debuggable="true"
+114        android:extractNativeLibs="false"
+114-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:98:9-42
+115        android:fullBackupContent="@xml/backup_rules"
+115-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:99:9-54
+116        android:hardwareAccelerated="true"
+116-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:95:9-43
+117        android:icon="@mipmap/ic_launcher"
+117-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:92:9-43
+118        android:label="@string/app_name"
+118-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:91:9-41
+119        android:largeHeap="true"
+119-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:96:9-33
+120        android:resizeableActivity="true"
+120-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:101:9-42
+121        android:roundIcon="@mipmap/ic_launcher_round"
+121-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:102:9-54
+122        android:supportsRtl="false"
+122-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:97:9-36
+123        android:theme="@style/AppTheme"
+123-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:90:9-40
+124        android:usesCleartextTraffic="true" >
+124-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:100:9-44
+125        <meta-data
+125-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:105:9-107:60
+126            android:name="com.google.android.gms.ads.APPLICATION_ID"
+126-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:106:13-69
+127            android:value="@string/Google_Application_ID" />
+127-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:107:13-58
+128
+129        <activity
+129-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:108:9-174:20
+130            android:name="com.cbt.exam.browser.activity.ActivitySplash"
+130-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:110:13-72
+131            android:configChanges="screenSize|orientation|keyboardHidden"
+131-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:113:13-74
+132            android:exported="true"
+132-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:111:13-36
+133            android:screenOrientation="unspecified"
+133-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:112:13-52
+134            android:theme="@style/AppTheme"
+134-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:109:13-44
+135            android:windowSoftInputMode="adjustResize|stateHidden" >
+135-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:114:13-67
+136            <intent-filter>
+136-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:115:13-118:29
+137                <action android:name="android.intent.action.MAIN" />
+137-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:116:17-68
+137-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:116:25-66
+138
+139                <category android:name="android.intent.category.LAUNCHER" />
+139-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:117:17-76
+139-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:117:27-74
+140            </intent-filter>
+141            <intent-filter>
+141-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:119:13-128:29
+142                <action android:name="android.intent.action.VIEW" />
+142-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:13-64
+142-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:21-62
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:17-75
+144-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:27-73
+145                <category android:name="android.intent.category.BROWSABLE" />
+145-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:34:13-73
+145-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:34:23-71
+146
+147                <data android:scheme="file" />
+147-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+147-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:19-41
+148                <data android:host="*" />
+148-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+148-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:124:23-39
+149                <data android:mimeType="*/*" />
+149-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+149-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:42:19-66
+150                <data android:pathPattern=".*\\.cbt" />
+150-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+150-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:126:23-53
+151                <data android:pathPattern=".*\\..*\\.cbt" />
+151-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+151-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:126:23-53
+152            </intent-filter>
+153            <intent-filter>
+153-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:129:13-136:29
+154                <action android:name="android.intent.action.VIEW" />
+154-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:13-64
+154-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:21-62
+155
+156                <category android:name="android.intent.category.DEFAULT" />
+156-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:17-75
+156-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:27-73
+157                <category android:name="android.intent.category.BROWSABLE" />
+157-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:34:13-73
+157-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:34:23-71
+158
+159                <data android:scheme="content" />
+159-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+159-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:19-41
+160                <data android:mimeType="*/*" />
+160-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+160-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:42:19-66
+161                <data android:host="*" />
+161-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+161-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:124:23-39
+162            </intent-filter>
+163            <intent-filter>
+163-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:137:13-145:29
+164                <action android:name="android.intent.action.VIEW" />
+164-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:13-64
+164-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:21-62
+165
+166                <category android:name="android.intent.category.DEFAULT" />
+166-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:17-75
+166-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:27-73
+167                <category android:name="android.intent.category.BROWSABLE" />
+167-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:34:13-73
+167-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:34:23-71
+168
+169                <data android:scheme="file" />
+169-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+169-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:19-41
+170                <data android:scheme="content" />
+170-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+170-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:19-41
+171                <data android:mimeType="application/octet-stream" />
+171-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+171-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:42:19-66
+172                <data android:host="*" />
+172-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+172-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:124:23-39
+173            </intent-filter>
+174            <intent-filter>
+174-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:146:13-154:29
+175                <action android:name="android.intent.action.VIEW" />
+175-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:13-64
+175-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:21-62
+176
+177                <category android:name="android.intent.category.DEFAULT" />
+177-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:17-75
+177-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:27-73
+178                <category android:name="android.intent.category.BROWSABLE" />
+178-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:34:13-73
+178-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:34:23-71
+179
+180                <data android:scheme="content" />
+180-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+180-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:19-41
+181                <data android:host="*" />
+181-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+181-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:124:23-39
+182                <data android:mimeType="application/*" />
+182-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+182-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:42:19-66
+183                <data android:pathPattern=".*\\.cbt" />
+183-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+183-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:126:23-53
+184            </intent-filter>
+185            <intent-filter>
+185-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:155:13-164:29
+186                <action android:name="android.intent.action.VIEW" />
+186-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:13-64
+186-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:21-62
+187
+188                <category android:name="android.intent.category.DEFAULT" />
+188-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:17-75
+188-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:27-73
+189                <category android:name="android.intent.category.BROWSABLE" />
+189-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:34:13-73
+189-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:34:23-71
+190
+191                <data android:scheme="file" />
+191-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+191-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:19-41
+192                <data android:scheme="content" />
+192-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+192-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:19-41
+193                <data android:host="*" />
+193-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+193-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:124:23-39
+194                <data android:mimeType="*/*" />
+194-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+194-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:42:19-66
+195                <data android:pathSuffix=".cbt" />
+195-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+195-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:163:23-48
+196            </intent-filter>
+197            <intent-filter>
+197-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:165:13-173:29
+198                <action android:name="android.intent.action.GET_CONTENT" />
+198-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:166:17-75
+198-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:166:25-73
+199
+200                <category android:name="android.intent.category.DEFAULT" />
+200-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:17-75
+200-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:27-73
+201                <category android:name="android.intent.category.OPENABLE" />
+201-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:168:17-76
+201-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:168:27-74
+202
+203                <data android:scheme="file" />
+203-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+203-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:19-41
+204                <data android:scheme="content" />
+204-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+204-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:19-41
+205                <data android:host="*" />
+205-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+205-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:124:23-39
+206                <data android:pathSuffix=".cbt" />
+206-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:26:13-43
+206-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:163:23-48
+207            </intent-filter>
+208        </activity>
+209        <activity
+209-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:175:9-184:20
+210            android:name="com.cbt.exam.browser.activity.MainActivity"
+210-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:177:13-70
+211            android:exported="true"
+211-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:178:13-36
+212            android:screenOrientation="unspecified"
+212-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:179:13-52
+213            android:theme="@style/AppTheme" >
+213-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:176:13-44
+214            <intent-filter>
+214-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:180:13-183:29
+215                <action android:name="android.intent.action.MAIN" />
+215-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:116:17-68
+215-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:116:25-66
+216
+217                <category android:name="android.intent.category.DEFAULT" />
+217-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:17-75
+217-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:121:27-73
+218            </intent-filter>
+219        </activity>
+220
+221        <provider
+221-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:185:9-193:20
+222            android:name="androidx.core.content.FileProvider"
+222-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:186:13-62
+223            android:authorities="com.cbt.exam.browser.fileprovider"
+223-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:188:13-68
+224            android:exported="false"
+224-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:187:13-37
+225            android:grantUriPermissions="true" >
+225-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:189:13-47
+226            <meta-data
+226-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:190:13-192:53
+227                android:name="android.support.FILE_PROVIDER_PATHS"
+227-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:191:17-67
+228                android:resource="@xml/file_paths" />
+228-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:192:17-51
+229        </provider>
+230
+231        <activity
+231-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:194:9-197:39
+232            android:name="com.cbt.exam.browser.activity.ActivityScanner"
+232-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:196:13-73
+233            android:exported="false"
+233-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:197:13-37
+234            android:theme="@style/AppTheme" />
+234-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:195:13-44
+235        <activity
+235-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:198:9-201:39
+236            android:name="com.cbt.exam.browser.activity.ActivityConfigConfirm"
+236-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:200:13-79
+237            android:exported="false"
+237-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:201:13-37
+238            android:theme="@style/AppTheme" />
+238-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:199:13-44
+239        <activity
+239-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:202:9-205:39
+240            android:name="com.cbt.exam.browser.activity.ActivityCreateConfig"
+240-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:204:13-78
+241            android:exported="false"
+241-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:205:13-37
+242            android:theme="@style/AppTheme" />
+242-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:203:13-44
+243        <activity
+243-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:206:9-209:39
+244            android:name="com.cbt.exam.browser.activity.ActivityGenerateConfig"
+244-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:208:13-80
+245            android:exported="false"
+245-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:209:13-37
+246            android:theme="@style/AppTheme" />
+246-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:207:13-44
+247        <activity
+247-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:210:9-222:55
+248            android:name="com.cbt.exam.browser.activity.ActivityCbtBrowser"
+248-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:212:13-76
+249            android:defaultHeight="500dp"
+249-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:220:13-42
+250            android:defaultWidth="600dp"
+250-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:219:13-41
+251            android:exported="false"
+251-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:213:13-37
+252            android:gravity="end|top"
+252-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:216:13-38
+253            android:launchMode="singleTask"
+253-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:214:13-44
+254            android:minHeight="450dp"
+254-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:218:13-38
+255            android:minWidth="300dp"
+255-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:217:13-37
+256            android:resizeableActivity="true"
+256-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:221:13-46
+257            android:screenOrientation="unspecified"
+257-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:215:13-52
+258            android:supportsPictureInPicture="false"
+258-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:222:13-53
+259            android:theme="@style/AppTheme" />
+259-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:211:13-44
+260        <activity
+260-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:223:9-235:55
+261            android:name="com.cbt.exam.browser.activity.ExamQR"
+261-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:225:13-64
+262            android:defaultHeight="500dp"
+262-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:233:13-42
+263            android:defaultWidth="600dp"
+263-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:232:13-41
+264            android:exported="false"
+264-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:226:13-37
+265            android:gravity="end|top"
+265-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:229:13-38
+266            android:launchMode="singleTask"
+266-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:227:13-44
+267            android:minHeight="450dp"
+267-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:231:13-38
+268            android:minWidth="300dp"
+268-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:230:13-37
+269            android:resizeableActivity="true"
+269-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:234:13-46
+270            android:screenOrientation="unspecified"
+270-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:228:13-52
+271            android:supportsPictureInPicture="false"
+271-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:235:13-53
+272            android:theme="@style/AppTheme" />
+272-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:224:13-44
+273        <activity
+273-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:236:9-248:55
+274            android:name="com.cbt.exam.browser.activity.ConfirmActivity"
+274-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:238:13-73
+275            android:defaultHeight="500dp"
+275-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:246:13-42
+276            android:defaultWidth="600dp"
+276-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:245:13-41
+277            android:exported="false"
+277-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:239:13-37
+278            android:gravity="end|top"
+278-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:242:13-38
+279            android:launchMode="singleTask"
+279-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:240:13-44
+280            android:minHeight="450dp"
+280-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:244:13-38
+281            android:minWidth="300dp"
+281-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:243:13-37
+282            android:resizeableActivity="true"
+282-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:247:13-46
+283            android:screenOrientation="unspecified"
+283-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:241:13-52
+284            android:supportsPictureInPicture="false"
+284-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:248:13-53
+285            android:theme="@style/AppTheme" />
+285-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:237:13-44
+286
+287        <receiver
+287-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:249:9-255:20
+288            android:name="com.cbt.exam.browser.util.cbt.BatteryReceiver"
+288-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:250:13-73
+289            android:exported="false" >
+289-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:251:13-37
+290            <intent-filter>
+290-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:252:13-254:29
+291                <action android:name="android.intent.action.BATTERY_CHANGED" />
+291-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:253:17-79
+291-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:253:25-77
+292            </intent-filter>
+293        </receiver>
+294
+295        <meta-data
+295-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:256:9-258:36
+296            android:name="com.google.android.gms.ads.flag.NATIVE_AD_DEBUGGER_ENABLED"
+296-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:257:13-86
+297            android:value="false" />
+297-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:258:13-34
+298        <meta-data
+298-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:259:9-261:68
+299            android:name="com.google.android.gms.version"
+299-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:260:13-58
+300            android:value="@integer/google_play_services_version" />
+300-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:261:13-66
+301        <meta-data
+301-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:262:9-264:35
+302            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+302-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:263:13-83
+303            android:value="true" />
+303-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:264:13-33
+304        <meta-data
+304-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:265:9-267:35
+305            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+305-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:266:13-79
+306            android:value="true" />
+306-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:267:13-33
+307        <meta-data
+307-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:268:9-270:36
+308            android:name="com.yandex.mobile.ads.AUTOMATIC_SDK_INITIALIZATION"
+308-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:269:13-78
+309            android:value="false" />
+309-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:270:13-34
+310
+311        <activity
+311-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:271:9-276:58
+312            android:name="com.google.android.gms.ads.AdActivity"
+312-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:273:13-65
+313            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"
+313-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:275:13-122
+314            android:enableOnBackInvokedCallback="false"
+314-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:276:13-56
+315            android:exported="false"
+315-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:274:13-37
+316            android:theme="@android:style/Theme.Translucent" />
+316-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:272:13-61
+317        <activity
+317-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:277:9-282:49
+318            android:name="com.ironsource.sdk.controller.ControllerActivity"
+318-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:279:13-76
+319            android:configChanges="screenSize|orientation"
+319-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:281:13-59
+320            android:exported="false"
+320-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:280:13-37
+321            android:hardwareAccelerated="true"
+321-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:282:13-47
+322            android:theme="@android:style/Theme.NoTitleBar" />
+322-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:278:13-60
+323        <activity
+323-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:283:9-288:49
+324            android:name="com.ironsource.sdk.controller.InterstitialActivity"
+324-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:285:13-78
+325            android:configChanges="screenSize|orientation"
+325-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:287:13-59
+326            android:exported="false"
+326-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:286:13-37
+327            android:hardwareAccelerated="true"
+327-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:288:13-47
+328            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+328-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:284:13-72
+329        <activity
+329-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:289:9-294:49
+330            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
+330-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:291:13-73
+331            android:configChanges="screenSize|orientation"
+331-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:293:13-59
+332            android:exported="false"
+332-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:292:13-37
+333            android:hardwareAccelerated="true"
+333-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:294:13-47
+334            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+334-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:290:13-72
+335
+336        <provider
+336-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:295:9-298:85
+337            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider"
+337-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:296:13-80
+338            android:authorities="com.cbt.exam.browser.IronsourceLifecycleProvider"
+338-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:298:13-83
+339            android:exported="false" />
+339-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:297:13-37
+340
+341        <service
+341-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:299:9-354:19
+342            android:name="com.google.firebase.components.ComponentDiscoveryService"
+342-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:300:13-84
+343            android:directBootAware="true"
+343-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:302:13-43
+344            android:exported="false" >
+344-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:301:13-37
+345            <meta-data
+345-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:303:13-305:84
+346                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayKtxRegistrar"
+346-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:304:17-147
+347                android:value="com.google.firebase.components.ComponentRegistrar" />
+347-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:305:17-82
+348            <meta-data
+348-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:306:13-308:84
+349                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+349-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:307:17-144
+350                android:value="com.google.firebase.components.ComponentRegistrar" />
+350-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:308:17-82
+351            <meta-data
+351-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:309:13-311:84
+352                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+352-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:310:17-139
+353                android:value="com.google.firebase.components.ComponentRegistrar" />
+353-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:311:17-82
+354            <meta-data
+354-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:312:13-314:84
+355                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+355-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:313:17-122
+356                android:value="com.google.firebase.components.ComponentRegistrar" />
+356-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:314:17-82
+357            <meta-data
+357-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:315:13-317:84
+358                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+358-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:316:17-119
+359                android:value="com.google.firebase.components.ComponentRegistrar" />
+359-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:317:17-82
+360            <meta-data
+360-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:318:13-320:84
+361                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar"
+361-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:319:17-128
+362                android:value="com.google.firebase.components.ComponentRegistrar" />
+362-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:320:17-82
+363            <meta-data
+363-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:321:13-323:84
+364                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+364-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:322:17-117
+365                android:value="com.google.firebase.components.ComponentRegistrar" />
+365-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:323:17-82
+366            <meta-data
+366-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:324:13-326:84
+367                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+367-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:325:17-126
+368                android:value="com.google.firebase.components.ComponentRegistrar" />
+368-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:326:17-82
+369            <meta-data
+369-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:327:13-329:84
+370                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+370-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:328:17-115
+371                android:value="com.google.firebase.components.ComponentRegistrar" />
+371-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:329:17-82
+372            <meta-data
+372-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:330:13-332:84
+373                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+373-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:331:17-117
+374                android:value="com.google.firebase.components.ComponentRegistrar" />
+374-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:332:17-82
+375            <meta-data
+375-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:333:13-335:84
+376                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingKtxRegistrar"
+376-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:334:17-132
+377                android:value="com.google.firebase.components.ComponentRegistrar" />
+377-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:335:17-82
+378            <meta-data
+378-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:336:13-338:84
+379                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+379-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:337:17-129
+380                android:value="com.google.firebase.components.ComponentRegistrar" />
+380-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:338:17-82
+381            <meta-data
+381-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:339:13-341:84
+382                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+382-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:340:17-130
+383                android:value="com.google.firebase.components.ComponentRegistrar" />
+383-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:341:17-82
+384            <meta-data
+384-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:342:13-344:84
+385                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+385-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:343:17-127
+386                android:value="com.google.firebase.components.ComponentRegistrar" />
+386-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:344:17-82
+387            <meta-data
+387-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:345:13-347:84
+388                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+388-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:346:17-109
+389                android:value="com.google.firebase.components.ComponentRegistrar" />
+389-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:347:17-82
+390            <meta-data
+390-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:348:13-350:84
+391                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+391-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:349:17-109
+392                android:value="com.google.firebase.components.ComponentRegistrar" />
+392-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:350:17-82
+393            <meta-data
+393-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:351:13-353:84
+394                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+394-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:352:17-115
+395                android:value="com.google.firebase.components.ComponentRegistrar" />
+395-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:353:17-82
+396        </service>
+397
+398        <uses-library
+398-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:355:9-357:39
+399            android:name="androidx.camera.extensions.impl"
+399-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:356:13-59
+400            android:required="false" />
+400-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:357:13-37
+401
+402        <service
+402-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:358:9-365:19
+403            android:name="androidx.camera.core.impl.MetadataHolderService"
+403-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:359:13-75
+404            android:enabled="false"
+404-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:360:13-36
+405            android:exported="false" >
+405-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:361:13-37
+406            <meta-data
+406-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:362:13-364:88
+407                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+407-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:363:17-103
+408                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+408-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:364:17-86
+409        </service>
+410        <service
+410-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:366:9-379:19
+411            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+411-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:367:13-91
+412            android:directBootAware="true"
+412-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:369:13-43
+413            android:exported="false" >
+413-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:368:13-37
+414            <meta-data
+414-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:370:13-372:84
+415                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+415-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:371:17-120
+416                android:value="com.google.firebase.components.ComponentRegistrar" />
+416-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:372:17-82
+417            <meta-data
+417-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:373:13-375:84
+418                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+418-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:374:17-124
+419                android:value="com.google.firebase.components.ComponentRegistrar" />
+419-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:375:17-82
+420            <meta-data
+420-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:376:13-378:84
+421                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+421-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:377:17-120
+422                android:value="com.google.firebase.components.ComponentRegistrar" />
+422-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:378:17-82
+423        </service>
+424
+425        <provider
+425-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:380:9-384:37
+426            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+426-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:381:13-78
+427            android:authorities="com.cbt.exam.browser.mlkitinitprovider"
+427-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:383:13-73
+428            android:exported="false"
+428-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:382:13-37
+429            android:initOrder="99" />
+429-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:384:13-35
+430
+431        <receiver
+431-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:385:9-393:20
+432            android:name="com.onesignal.notifications.receivers.FCMBroadcastReceiver"
+432-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:386:13-86
+433            android:exported="true"
+433-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:388:13-36
+434            android:permission="com.google.android.c2dm.permission.SEND" >
+434-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:387:13-73
+435            <intent-filter android:priority="999" >
+435-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:389:13-392:29
+435-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:389:28-50
+436                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+436-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:390:17-80
+436-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:390:25-78
+437
+438                <category android:name="com.cbt.exam.browser" />
+438-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:391:17-64
+438-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:391:27-62
+439            </intent-filter>
+440        </receiver>
+441
+442        <service
+442-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:394:9-400:19
+443            android:name="com.onesignal.notifications.services.HmsMessageServiceOneSignal"
+443-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:395:13-91
+444            android:exported="false" >
+444-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:396:13-37
+445            <intent-filter>
+445-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:397:13-399:29
+446                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+446-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:398:17-80
+446-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:398:25-78
+447            </intent-filter>
+448        </service>
+449
+450        <activity
+450-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:401:9-409:20
+451            android:name="com.onesignal.NotificationOpenedActivityHMS"
+451-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:403:13-71
+452            android:exported="true"
+452-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:404:13-36
+453            android:noHistory="true"
+453-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:405:13-37
+454            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+454-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:402:13-72
+455            <intent-filter>
+455-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:406:13-408:29
+456                <action android:name="android.intent.action.VIEW" />
+456-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:13-64
+456-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:25:21-62
+457            </intent-filter>
+458        </activity>
+459
+460        <receiver
+460-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:410:9-412:38
+461            android:name="com.onesignal.notifications.receivers.NotificationDismissReceiver"
+461-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:411:13-93
+462            android:exported="true" />
+462-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:412:13-36
+463        <receiver
+463-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:413:9-420:20
+464            android:name="com.onesignal.notifications.receivers.BootUpReceiver"
+464-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:414:13-80
+465            android:exported="true" >
+465-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:415:13-36
+466            <intent-filter>
+466-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:416:13-419:29
+467                <action android:name="android.intent.action.BOOT_COMPLETED" />
+467-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:417:17-78
+467-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:417:25-76
+468                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+468-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:418:17-81
+468-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:418:25-79
+469            </intent-filter>
+470        </receiver>
+471        <receiver
+471-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:421:9-427:20
+472            android:name="com.onesignal.notifications.receivers.UpgradeReceiver"
+472-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:422:13-81
+473            android:exported="true" >
+473-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:423:13-36
+474            <intent-filter>
+474-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:424:13-426:29
+475                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+475-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:425:17-83
+475-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:425:25-81
+476            </intent-filter>
+477        </receiver>
+478
+479        <activity
+479-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:428:9-434:39
+480            android:name="com.onesignal.notifications.activities.NotificationOpenedActivity"
+480-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:430:13-93
+481            android:excludeFromRecents="true"
+481-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:433:13-46
+482            android:exported="true"
+482-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:431:13-36
+483            android:noHistory="true"
+483-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:434:13-37
+484            android:taskAffinity=""
+484-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:432:13-36
+485            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+485-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:429:13-72
+486        <activity
+486-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:435:9-440:39
+487            android:name="com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder"
+487-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:437:13-110
+488            android:excludeFromRecents="true"
+488-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:439:13-46
+489            android:exported="true"
+489-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:438:13-36
+490            android:noHistory="true"
+490-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:440:13-37
+491            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+491-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:436:13-72
+492
+493        <service
+493-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:441:9-444:39
+494            android:name="com.onesignal.core.services.SyncJobService"
+494-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:442:13-70
+495            android:exported="false"
+495-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:444:13-37
+496            android:permission="android.permission.BIND_JOB_SERVICE" />
+496-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:443:13-69
+497
+498        <activity
+498-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:445:9-448:39
+499            android:name="com.onesignal.core.activities.PermissionsActivity"
+499-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:447:13-77
+500            android:exported="false"
+500-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:448:13-37
+501            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+501-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:446:13-72
+502
+503        <receiver
+503-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:449:9-452:39
+504            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+504-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:450:13-85
+505            android:enabled="true"
+505-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:451:13-35
+506            android:exported="false" />
+506-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:452:13-37
+507
+508        <service
+508-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:453:9-456:39
+509            android:name="com.google.android.gms.measurement.AppMeasurementService"
+509-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:454:13-84
+510            android:enabled="true"
+510-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:455:13-35
+511            android:exported="false" />
+511-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:456:13-37
+512        <service
+512-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:457:9-461:39
+513            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+513-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:458:13-87
+514            android:enabled="true"
+514-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:460:13-35
+515            android:exported="false"
+515-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:461:13-37
+516            android:permission="android.permission.BIND_JOB_SERVICE" />
+516-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:459:13-69
+517
+518        <activity
+518-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:462:9-466:108
+519            android:name="com.facebook.ads.AudienceNetworkActivity"
+519-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:464:13-68
+520            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+520-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:466:13-106
+521            android:exported="false"
+521-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:465:13-37
+522            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+522-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:463:13-72
+523
+524        <provider
+524-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:467:9-470:88
+525            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+525-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:468:13-75
+526            android:authorities="com.cbt.exam.browser.AudienceNetworkContentProvider"
+526-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:470:13-86
+527            android:exported="false" />
+527-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:469:13-37
+528        <provider
+528-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:471:9-475:38
+529            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+529-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:472:13-76
+530            android:authorities="com.cbt.exam.browser.mobileadsinitprovider"
+530-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:474:13-77
+531            android:exported="false"
+531-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:473:13-37
+532            android:initOrder="100" />
+532-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:475:13-36
+533
+534        <service
+534-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:476:9-479:39
+535            android:name="com.google.android.gms.ads.AdService"
+535-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:477:13-64
+536            android:enabled="true"
+536-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:478:13-35
+537            android:exported="false" />
+537-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:479:13-37
+538
+539        <activity
+539-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:480:9-483:124
+540            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+540-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:481:13-82
+541            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"
+541-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:483:13-122
+542            android:exported="false" />
+542-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:482:13-37
+543        <activity
+543-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:484:9-490:46
+544            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+544-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:486:13-82
+545            android:excludeFromRecents="true"
+545-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:489:13-46
+546            android:exported="false"
+546-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:487:13-37
+547            android:launchMode="singleTask"
+547-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:490:13-44
+548            android:taskAffinity=""
+548-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:488:13-36
+549            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+549-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:485:13-72
+550        <activity
+550-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:491:9-496:49
+551            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+551-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:493:13-74
+552            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+552-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:495:13-170
+553            android:exported="false"
+553-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:494:13-37
+554            android:hardwareAccelerated="true"
+554-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:496:13-47
+555            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+555-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:492:13-71
+556        <activity
+556-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:497:9-502:49
+557            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+557-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:499:13-85
+558            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+558-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:501:13-170
+559            android:exported="false"
+559-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:500:13-37
+560            android:hardwareAccelerated="true"
+560-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:502:13-47
+561            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+561-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:498:13-83
+562        <activity
+562-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:503:9-508:50
+563            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+563-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:505:13-93
+564            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+564-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:507:13-170
+565            android:exported="false"
+565-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:506:13-37
+566            android:hardwareAccelerated="false"
+566-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:508:13-48
+567            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+567-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:504:13-83
+568        <activity
+568-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:509:9-514:50
+569            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+569-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:511:13-82
+570            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+570-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:513:13-170
+571            android:exported="false"
+571-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:512:13-37
+572            android:hardwareAccelerated="false"
+572-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:514:13-48
+573            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+573-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:510:13-71
+574        <activity
+574-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:515:9-520:49
+575            android:name="com.unity3d.ads.adplayer.FullScreenWebViewDisplay"
+575-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:517:13-77
+576            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+576-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:519:13-170
+577            android:exported="false"
+577-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:518:13-37
+578            android:hardwareAccelerated="true"
+578-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:520:13-47
+579            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+579-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:516:13-71
+580
+581        <provider
+581-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:521:9-543:20
+582            android:name="androidx.startup.InitializationProvider"
+582-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:522:13-67
+583            android:authorities="com.cbt.exam.browser.androidx-startup"
+583-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:524:13-72
+584            android:exported="false" >
+584-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:523:13-37
+585            <meta-data
+585-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:525:13-527:51
+586                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+586-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:526:17-78
+587                android:value="androidx.startup" />
+587-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:527:17-49
+588            <meta-data
+588-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:528:13-530:51
+589                android:name="com.unity3d.services.core.configuration.AdsSdkInitializer"
+589-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:529:17-89
+590                android:value="androidx.startup" />
+590-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:530:17-49
+591            <meta-data
+591-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:531:13-533:51
+592                android:name="androidx.work.WorkManagerInitializer"
+592-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:532:17-68
+593                android:value="androidx.startup" />
+593-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:533:17-49
+594            <meta-data
+594-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:534:13-536:51
+595                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+595-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:535:17-75
+596                android:value="androidx.startup" />
+596-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:536:17-49
+597            <meta-data
+597-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:537:13-539:51
+598                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+598-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:538:17-85
+599                android:value="androidx.startup" />
+599-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:539:17-49
+600            <meta-data
+600-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:540:13-542:51
+601                android:name="okhttp3.internal.platform.PlatformInitializer"
+601-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:541:17-77
+602                android:value="androidx.startup" />
+602-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:542:17-49
+603        </provider>
+604
+605        <receiver
+605-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:544:9-554:20
+606            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+606-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:545:13-78
+607            android:exported="true"
+607-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:547:13-36
+608            android:permission="com.google.android.c2dm.permission.SEND" >
+608-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:546:13-73
+609            <intent-filter>
+609-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:548:13-550:29
+610                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+610-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:390:17-80
+610-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:390:25-78
+611            </intent-filter>
+612
+613            <meta-data
+613-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:551:13-553:39
+614                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+614-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:552:17-92
+615                android:value="true" />
+615-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:553:17-37
+616        </receiver>
+617
+618        <service
+618-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:555:9-562:19
+619            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+619-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:556:13-82
+620            android:directBootAware="true"
+620-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:558:13-43
+621            android:exported="false" >
+621-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:557:13-37
+622            <intent-filter android:priority="-500" >
+622-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:559:13-561:29
+622-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:559:28-51
+623                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+623-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:560:17-77
+623-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:560:25-75
+624            </intent-filter>
+625        </service>
+626
+627        <activity
+627-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:563:9-566:39
+628            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+628-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:565:13-79
+629            android:exported="false"
+629-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:566:13-37
+630            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+630-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:564:13-72
+631
+632        <provider
+632-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:567:9-572:45
+633            android:name="com.google.firebase.provider.FirebaseInitProvider"
+633-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:568:13-77
+634            android:authorities="com.cbt.exam.browser.firebaseinitprovider"
+634-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:570:13-76
+635            android:directBootAware="true"
+635-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:572:13-43
+636            android:exported="false"
+636-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:569:13-37
+637            android:initOrder="100" />
+637-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:571:13-36
+638
+639        <service
+639-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:573:9-577:46
+640            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+640-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:574:13-88
+641            android:directBootAware="false"
+641-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:577:13-44
+642            android:enabled="@bool/enable_system_alarm_service_default"
+642-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:575:13-72
+643            android:exported="false" />
+643-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:576:13-37
+644        <service
+644-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:578:9-583:46
+645            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+645-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:579:13-84
+646            android:directBootAware="false"
+646-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:583:13-44
+647            android:enabled="@bool/enable_system_job_service_default"
+647-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:581:13-70
+648            android:exported="true"
+648-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:582:13-36
+649            android:permission="android.permission.BIND_JOB_SERVICE" />
+649-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:580:13-69
+650        <service
+650-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:584:9-588:46
+651            android:name="androidx.work.impl.foreground.SystemForegroundService"
+651-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:585:13-81
+652            android:directBootAware="false"
+652-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:588:13-44
+653            android:enabled="@bool/enable_system_foreground_service_default"
+653-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:586:13-77
+654            android:exported="false" />
+654-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:587:13-37
+655
+656        <receiver
+656-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:589:9-593:46
+657            android:name="androidx.work.impl.utils.ForceStopRunnable.BroadcastReceiver"
+657-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:590:13-88
+658            android:directBootAware="false"
+658-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:593:13-44
+659            android:enabled="true"
+659-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:591:13-35
+660            android:exported="false" />
+660-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:592:13-37
+661        <receiver
+661-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:594:9-603:20
+662            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryChargingProxy"
+662-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:595:13-106
+663            android:directBootAware="false"
+663-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:598:13-44
+664            android:enabled="false"
+664-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:596:13-36
+665            android:exported="false" >
+665-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:597:13-37
+666            <intent-filter>
+666-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:599:13-602:29
+667                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+667-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:600:17-86
+667-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:600:25-84
+668                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+668-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:601:17-89
+668-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:601:25-87
+669            </intent-filter>
+670        </receiver>
+671        <receiver
+671-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:604:9-613:20
+672            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryNotLowProxy"
+672-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:605:13-104
+673            android:directBootAware="false"
+673-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:608:13-44
+674            android:enabled="false"
+674-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:606:13-36
+675            android:exported="false" >
+675-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:607:13-37
+676            <intent-filter>
+676-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:609:13-612:29
+677                <action android:name="android.intent.action.BATTERY_OKAY" />
+677-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:610:17-76
+677-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:610:25-74
+678                <action android:name="android.intent.action.BATTERY_LOW" />
+678-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:611:17-75
+678-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:611:25-73
+679            </intent-filter>
+680        </receiver>
+681        <receiver
+681-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:614:9-623:20
+682            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.StorageNotLowProxy"
+682-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:615:13-104
+683            android:directBootAware="false"
+683-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:618:13-44
+684            android:enabled="false"
+684-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:616:13-36
+685            android:exported="false" >
+685-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:617:13-37
+686            <intent-filter>
+686-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:619:13-622:29
+687                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+687-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:620:17-82
+687-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:620:25-80
+688                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+688-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:621:17-81
+688-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:621:25-79
+689            </intent-filter>
+690        </receiver>
+691        <receiver
+691-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:624:9-632:20
+692            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.NetworkStateProxy"
+692-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:625:13-103
+693            android:directBootAware="false"
+693-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:628:13-44
+694            android:enabled="false"
+694-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:626:13-36
+695            android:exported="false" >
+695-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:627:13-37
+696            <intent-filter>
+696-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:629:13-631:29
+697                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+697-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:630:17-78
+697-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:630:25-76
+698            </intent-filter>
+699        </receiver>
+700        <receiver
+700-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:633:9-643:20
+701            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+701-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:634:13-88
+702            android:directBootAware="false"
+702-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:637:13-44
+703            android:enabled="false"
+703-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:635:13-36
+704            android:exported="false" >
+704-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:636:13-37
+705            <intent-filter>
+705-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:638:13-642:29
+706                <action android:name="android.intent.action.BOOT_COMPLETED" />
+706-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:417:17-78
+706-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:417:25-76
+707                <action android:name="android.intent.action.TIME_SET" />
+707-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:640:17-72
+707-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:640:25-70
+708                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+708-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:641:17-80
+708-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:641:25-78
+709            </intent-filter>
+710        </receiver>
+711        <receiver
+711-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:644:9-652:20
+712            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+712-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:645:13-99
+713            android:directBootAware="false"
+713-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:648:13-44
+714            android:enabled="@bool/enable_system_alarm_service_default"
+714-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:646:13-72
+715            android:exported="false" >
+715-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:647:13-37
+716            <intent-filter>
+716-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:649:13-651:29
+717                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+717-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:650:17-97
+717-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:650:25-95
+718            </intent-filter>
+719        </receiver>
+720        <receiver
+720-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:653:9-662:20
+721            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+721-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:654:13-78
+722            android:directBootAware="false"
+722-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:658:13-44
+723            android:enabled="true"
+723-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:656:13-35
+724            android:exported="true"
+724-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:657:13-36
+725            android:permission="android.permission.DUMP" >
+725-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:655:13-57
+726            <intent-filter>
+726-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:659:13-661:29
+727                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+727-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:660:17-87
+727-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:660:25-85
+728            </intent-filter>
+729        </receiver>
+730
+731        <meta-data
+731-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:663:9-665:38
+732            android:name="com.bytedance.sdk.pangle.version"
+732-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:664:13-60
+733            android:value="7.2.0.6" />
+733-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:665:13-36
+734
+735        <activity
+735-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:666:9-669:76
+736            android:name="com.bytedance.sdk.openadsdk.activity.TTCeilingLandingPageActivity"
+736-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:667:13-93
+737            android:configChanges="screenSize|orientation|keyboardHidden"
+737-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:669:13-74
+738            android:launchMode="standard" />
+738-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:668:13-42
+739        <activity
+739-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:670:9-674:76
+740            android:name="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"
+740-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:672:13-86
+741            android:configChanges="screenSize|orientation|keyboardHidden"
+741-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:674:13-74
+742            android:launchMode="standard"
+742-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:673:13-42
+743            android:theme="@style/tt_landing_page" />
+743-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:671:13-51
+744        <activity
+744-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:675:9-679:76
+745            android:name="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"
+745-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:677:13-94
+746            android:configChanges="screenSize|orientation|keyboardHidden"
+746-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:679:13-74
+747            android:launchMode="standard"
+747-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:678:13-42
+748            android:theme="@style/tt_landing_page" />
+748-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:676:13-51
+749        <activity
+749-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:680:9-684:76
+750            android:name="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity"
+750-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:682:13-96
+751            android:configChanges="screenSize|orientation|keyboardHidden"
+751-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:684:13-74
+752            android:launchMode="standard"
+752-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:683:13-42
+753            android:theme="@style/tt_landing_page" />
+753-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:681:13-51
+754        <activity
+754-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:685:9-688:44
+755            android:name="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"
+755-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:687:13-83
+756            android:launchMode="standard"
+756-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:688:13-42
+757            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+757-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:686:13-72
+758        <activity
+758-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:689:9-693:51
+759            android:name="com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"
+759-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:691:13-82
+760            android:launchMode="standard"
+760-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:692:13-42
+761            android:screenOrientation="portrait"
+761-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:693:13-49
+762            android:theme="@style/tt_privacy_landing_page" />
+762-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:690:13-59
+763
+764        <service android:name="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService" />
+764-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:694:9-94
+764-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:694:18-92
+765
+766        <activity
+766-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:695:9-699:76
+767            android:name="com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity"
+767-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:697:13-84
+768            android:configChanges="screenSize|orientation|keyboardHidden"
+768-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:699:13-74
+769            android:launchMode="standard"
+769-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:698:13-42
+770            android:theme="@style/tt_app_open_ad_no_animation" />
+770-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:696:13-63
+771        <activity
+771-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:700:9-704:76
+772            android:name="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"
+772-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:702:13-86
+773            android:configChanges="screenSize|orientation|keyboardHidden"
+773-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:704:13-74
+774            android:launchMode="standard"
+774-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:703:13-42
+775            android:theme="@style/tt_full_screen_new" />
+775-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:701:13-54
+776        <activity
+776-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:705:9-709:76
+777            android:name="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"
+777-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:707:13-93
+778            android:configChanges="screenSize|orientation|keyboardHidden"
+778-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:709:13-74
+779            android:launchMode="standard"
+779-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:708:13-42
+780            android:theme="@style/tt_full_screen_new" />
+780-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:706:13-54
+781        <activity
+781-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:710:9-714:76
+782            android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"
+782-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:712:13-90
+783            android:configChanges="screenSize|orientation|keyboardHidden"
+783-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:714:13-74
+784            android:launchMode="standard"
+784-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:713:13-42
+785            android:theme="@style/tt_full_screen_new" />
+785-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:711:13-54
+786        <activity
+786-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:715:9-719:76
+787            android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"
+787-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:717:13-97
+788            android:configChanges="screenSize|orientation|keyboardHidden"
+788-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:719:13-74
+789            android:launchMode="standard"
+789-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:718:13-42
+790            android:theme="@style/tt_full_screen_new" />
+790-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:716:13-54
+791        <activity
+791-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:720:9-724:76
+792            android:name="com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity"
+792-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:722:13-87
+793            android:configChanges="screenSize|orientation|keyboardHidden"
+793-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:724:13-74
+794            android:launchMode="standard"
+794-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:723:13-42
+795            android:theme="@style/tt_full_screen_interaction" />
+795-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:721:13-62
+796        <activity
+796-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:725:9-729:76
+797            android:name="com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity"
+797-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:727:13-94
+798            android:configChanges="screenSize|orientation|keyboardHidden"
+798-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:729:13-74
+799            android:launchMode="standard"
+799-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:728:13-42
+800            android:theme="@style/tt_full_screen_interaction" />
+800-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:726:13-62
+801        <activity
+801-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:730:9-734:76
+802            android:name="com.bytedance.sdk.openadsdk.activity.TTAdActivity"
+802-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:732:13-77
+803            android:configChanges="screenSize|orientation|keyboardHidden"
+803-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:734:13-74
+804            android:launchMode="standard"
+804-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:733:13-42
+805            android:theme="@style/tt_full_screen_new" />
+805-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:731:13-54
+806        <activity
+806-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:735:9-740:49
+807            android:name="com.vungle.ads.internal.ui.VungleActivity"
+807-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:737:13-69
+808            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden"
+808-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:739:13-113
+809            android:hardwareAccelerated="true"
+809-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:740:13-47
+810            android:launchMode="singleTop"
+810-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:738:13-43
+811            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+811-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:736:13-71
+812
+813        <provider
+813-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:741:9-745:38
+814            android:name="com.vungle.ads.VungleProvider"
+814-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:742:13-57
+815            android:authorities="com.cbt.exam.browser.vungle-provider"
+815-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:744:13-71
+816            android:exported="false"
+816-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:743:13-37
+817            android:initOrder="102" />
+817-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:745:13-36
+818
+819        <uses-library
+819-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:746:9-748:39
+820            android:name="android.ext.adservices"
+820-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:747:13-50
+821            android:required="false" />
+821-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:748:13-37
+822
+823        <receiver
+823-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:749:9-767:20
+824            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+824-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:750:13-76
+825            android:directBootAware="false"
+825-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:754:13-44
+826            android:enabled="true"
+826-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:752:13-35
+827            android:exported="true"
+827-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:753:13-36
+828            android:permission="android.permission.DUMP" >
+828-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:751:13-57
+829            <intent-filter>
+829-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:755:13-757:29
+830                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+830-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:756:17-90
+830-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:756:25-88
+831            </intent-filter>
+832            <intent-filter>
+832-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:758:13-760:29
+833                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+833-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:759:17-84
+833-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:759:25-82
+834            </intent-filter>
+835            <intent-filter>
+835-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:761:13-763:29
+836                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+836-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:762:17-87
+836-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:762:25-85
+837            </intent-filter>
+838            <intent-filter>
+838-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:764:13-766:29
+839                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+839-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:765:17-94
+839-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:765:25-92
+840            </intent-filter>
+841        </receiver>
+842
+843        <service
+843-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:768:9-771:45
+844            android:name="androidx.room.MultiInstanceInvalidationService"
+844-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:769:13-74
+845            android:directBootAware="true"
+845-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:771:13-43
+846            android:exported="false" />
+846-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:770:13-37
+847        <service
+847-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:772:9-778:19
+848            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+848-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:773:13-103
+849            android:exported="false" >
+849-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:774:13-37
+850            <meta-data
+850-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:775:13-777:38
+851                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+851-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:776:17-94
+852                android:value="cct" />
+852-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:777:17-36
+853        </service>
+854        <service
+854-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:779:9-782:39
+855            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+855-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:780:13-117
+856            android:exported="false"
+856-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:782:13-37
+857            android:permission="android.permission.BIND_JOB_SERVICE" />
+857-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:781:13-69
+858
+859        <receiver
+859-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:783:9-785:39
+860            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+860-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:784:13-132
+861            android:exported="false" />
+861-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:785:13-37
+862
+863        <activity
+863-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:786:9-795:20
+864            android:name="com.ironsource.mediationsdk.testSuite.TestSuiteActivity"
+864-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:788:13-83
+865            android:configChanges="screenSize|orientation"
+865-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:790:13-59
+866            android:exported="false"
+866-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:789:13-37
+867            android:hardwareAccelerated="true"
+867-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:791:13-47
+868            android:theme="@android:style/Theme.NoTitleBar" >
+868-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:787:13-60
+869            <meta-data
+869-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:792:13-794:39
+870                android:name="android.webkit.WebView.EnableSafeBrowsing"
+870-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:793:17-73
+871                android:value="true" />
+871-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:794:17-37
+872        </activity>
+873
+874        <provider
+874-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:796:9-799:92
+875            android:name="com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider"
+875-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:797:13-87
+876            android:authorities="com.cbt.exam.browser.LevelPlayActivityLifecycleProvider"
+876-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:799:13-90
+877            android:exported="false" />
+877-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:798:13-37
+878
+879        <activity
+879-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:800:9-803:51
+880            android:name="sg.bigo.ads.ad.splash.AdSplashActivity"
+880-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:802:13-66
+881            android:screenOrientation="portrait"
+881-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:803:13-49
+882            android:theme="@android:style/Theme" />
+882-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:801:13-49
+883        <activity
+883-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:804:9-807:52
+884            android:name="sg.bigo.ads.ad.splash.LandscapeAdSplashActivity"
+884-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:806:13-75
+885            android:screenOrientation="landscape"
+885-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:807:13-50
+886            android:theme="@android:style/Theme" />
+886-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:805:13-49
+887
+888        <provider
+888-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:808:9-811:73
+889            android:name="sg.bigo.ads.controller.provider.BigoAdsProvider"
+889-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:809:13-75
+890            android:authorities="com.cbt.exam.browser.BigoAdsProvider"
+890-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:811:13-71
+891            android:exported="false" />
+891-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:810:13-37
+892
+893        <activity
+893-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:812:9-814:54
+894            android:name="sg.bigo.ads.controller.form.AdFormActivity"
+894-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:813:13-70
+895            android:windowSoftInputMode="adjustPan" />
+895-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:814:13-52
+896        <activity
+896-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:815:9-820:62
+897            android:name="sg.bigo.ads.api.AdActivity"
+897-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:817:13-54
+898            android:configChanges="screenSize|orientation"
+898-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:819:13-59
+899            android:screenOrientation="portrait"
+899-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:818:13-49
+900            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+900-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:816:13-72
+901            android:windowSoftInputMode="stateAlwaysHidden" />
+901-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:820:13-60
+902        <activity
+902-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:821:9-826:62
+903            android:name="sg.bigo.ads.api.PopupAdActivity"
+903-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:823:13-59
+904            android:configChanges="screenSize|orientation"
+904-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:825:13-59
+905            android:screenOrientation="portrait"
+905-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:824:13-49
+906            android:theme="@style/TransparentDialog"
+906-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:822:13-53
+907            android:windowSoftInputMode="stateAlwaysHidden" />
+907-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:826:13-60
+908        <activity
+908-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:827:9-832:62
+909            android:name="sg.bigo.ads.api.LandingStyleableActivity"
+909-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:829:13-68
+910            android:configChanges="screenSize|orientation"
+910-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:831:13-59
+911            android:screenOrientation="behind"
+911-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:830:13-47
+912            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar"
+912-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:828:13-79
+913            android:windowSoftInputMode="stateAlwaysHidden" />
+913-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:832:13-60
+914        <activity
+914-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:833:9-838:62
+915            android:name="sg.bigo.ads.api.LandscapeAdActivity"
+915-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:835:13-63
+916            android:configChanges="screenSize|orientation"
+916-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:837:13-59
+917            android:screenOrientation="landscape"
+917-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:836:13-50
+918            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+918-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:834:13-72
+919            android:windowSoftInputMode="stateAlwaysHidden" />
+919-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:838:13-60
+920        <activity
+920-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:839:9-844:62
+921            android:name="sg.bigo.ads.api.CompanionAdActivity"
+921-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:841:13-63
+922            android:configChanges="screenSize|orientation"
+922-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:843:13-59
+923            android:screenOrientation="portrait"
+923-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:842:13-49
+924            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+924-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:840:13-72
+925            android:windowSoftInputMode="stateAlwaysHidden" />
+925-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:844:13-60
+926        <activity
+926-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:845:9-850:62
+927            android:name="sg.bigo.ads.api.LandscapeCompanionAdActivity"
+927-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:847:13-72
+928            android:configChanges="screenSize|orientation"
+928-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:849:13-59
+929            android:screenOrientation="landscape"
+929-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:848:13-50
+930            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+930-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:846:13-72
+931            android:windowSoftInputMode="stateAlwaysHidden" />
+931-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:850:13-60
+932        <activity
+932-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:851:9-855:76
+933            android:name="sg.bigo.ads.core.mraid.MraidVideoActivity"
+933-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:853:13-69
+934            android:configChanges="screenSize|orientation|keyboardHidden"
+934-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:855:13-74
+935            android:screenOrientation="portrait"
+935-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:854:13-49
+936            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+936-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:852:13-71
+937        <activity
+937-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:856:9-860:44
+938            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+938-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:858:13-93
+939            android:exported="false"
+939-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:859:13-37
+940            android:stateNotNeeded="true"
+940-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:860:13-42
+941            android:theme="@style/Theme.PlayCore.Transparent" />
+941-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:857:13-62
+942        <activity
+942-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:861:9-863:39
+943            android:name="com.pairip.licensecheck.LicenseActivity"
+943-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:862:13-67
+944            android:exported="false" />
+944-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:863:13-37
+945
+946        <provider
+946-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:864:9-867:104
+947            android:name="com.pairip.licensecheck.LicenseContentProvider"
+947-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:865:13-74
+948            android:authorities="com.cbt.exam.browser.com.pairip.licensecheck.LicenseContentProvider"
+948-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:867:13-102
+949            android:exported="false" />
+949-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:866:13-37
+950
+951        <meta-data
+951-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:868:9-870:35
+952            android:name="com.android.vending.splits.required"
+952-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:869:13-63
+953            android:value="true" />
+953-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:870:13-33
+954        <meta-data
+954-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:871:9-873:60
+955            android:name="com.android.stamp.source"
+955-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:872:13-52
+956            android:value="https://play.google.com/store" />
+956-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:873:13-58
+957        <meta-data
+957-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:874:9-876:58
+958            android:name="com.android.stamp.type"
+958-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:875:13-50
+959            android:value="STAMP_TYPE_DISTRIBUTION_APK" />
+959-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:876:13-56
+960        <meta-data
+960-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:877:9-879:46
+961            android:name="com.android.vending.splits"
+961-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:878:13-54
+962            android:resource="@xml/splits0" />
+962-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:879:13-44
+963        <meta-data
+963-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:880:9-882:32
+964            android:name="com.android.vending.derived.apk.id"
+964-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:881:13-62
+965            android:value="3" />
+965-->C:\Users\User\Downloads\cbt2-source\app\src\main\AndroidManifest.xml:882:13-30
+966    </application>
+967
+968</manifest>

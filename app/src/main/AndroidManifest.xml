@@ -6,7 +6,6 @@
     android:compileSdkVersionCodename="16"
     android:requiredSplitTypes="base__abi,base__density"
     android:splitTypes=""
-    package="com.cbt.exam.browser"
     platformBuildVersionCode="36"
     platformBuildVersionName="16">
     <uses-sdk

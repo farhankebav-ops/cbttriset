@@ -36,10 +36,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_19.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_19.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/mipmap-xhdpi_ic_launcher_background.webp.flat",
         "source": "com.cbt.exam.browser.app-main-6:/mipmap-xhdpi/ic_launcher_background.webp"
     },
@@ -124,10 +120,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/animator/design_appbar_state_list_animator.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_native_banner_medium.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_native_banner_medium.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_ic_mtrl_chip_checked_black.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/ic_mtrl_chip_checked_black.xml"
     },
@@ -178,10 +170,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color-v31_m3_ref_palette_dynamic_neutral4.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color-v31/m3_ref_palette_dynamic_neutral4.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_component_21.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_component_21.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_feedback_top_slide_bar.xml.flat",
@@ -252,10 +240,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/animator/m3_btn_state_list_anim.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_multi_img_17.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_multi_img_17.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_popup_ad_info_background.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_popup_ad_info_background.xml"
     },
@@ -306,10 +290,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color-v31_m3_ref_palette_dynamic_neutral_variant98.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color-v31/m3_ref_palette_dynamic_neutral_variant98.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_16_17.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_16_17.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
@@ -384,10 +364,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_download_8.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_download_8.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/animator_mtrl_extended_fab_change_size_collapse_motion_spec.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/animator/mtrl_extended_fab_change_size_collapse_motion_spec.xml"
     },
@@ -398,10 +374,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_abc_hint_foreground_material_dark.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/abc_hint_foreground_material_dark.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_webview_loading.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_webview_loading.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_material_timepicker_dialog.xml.flat",
@@ -492,14 +464,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/mtrl_switch_thumb_pressed.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_multi_img_13.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_multi_img_13.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_rich_video_multi_img_bottom.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_rich_video_multi_img_bottom.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_ic_keyboard_black_24dp.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/ic_keyboard_black_24dp.xml"
     },
@@ -540,24 +504,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/mtrl_tabs_icon_color_selector_colored.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_ic_item.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_ic_item.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_ad_closed_background_320_50.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_ad_closed_background_320_50.png"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_btn_checkbox_to_unchecked_check_path_merged_animation.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_pop_up_ad_msg.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_pop_up_ad_msg.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_item_interaction_vertical.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_item_interaction_vertical.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_material_timepicker.xml.flat",
@@ -660,40 +612,20 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout/mtrl_layout_snackbar.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_form_layout_dark.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_form_layout_dark.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout-sw720dp_activity_splash.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout-sw720dp/activity_splash.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_mid_page_native_view.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_mid_page_native_view.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_interaction_shake_landscape_phone.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_interaction_shake_landscape_phone.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_4_cta_widget.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_4_cta_widget.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_notification_template_media_custom.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/notification_template_media_custom.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_style_landscape_1_full_media.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_style_landscape_1_full_media.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color-v31_m3_ref_palette_dynamic_neutral_variant12.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color-v31/m3_ref_palette_dynamic_neutral_variant12.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_download_11.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_download_11.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout-land_activity_scanner.xml.flat",
@@ -720,10 +652,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout/design_navigation_item.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_vpaid.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_vpaid.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_reward_full_mute.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_reward_full_mute.png"
     },
@@ -748,20 +676,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/ic_outline_share_24.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_webview.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_webview.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_gnt_pangle_medium_template_view.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/gnt_pangle_medium_template_view.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_abc_list_selector_holo_light.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_view_click_guide_landscape_1.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_view_click_guide_landscape_1.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -780,10 +700,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_close3.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable__mtrl_checkbox_button_icon_unchecked_indeterminate__1_res_0x7f08001c.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/_mtrl_checkbox_button_icon_unchecked_indeterminate__1_res_0x7f08001c.xml"
     },
@@ -794,14 +710,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/interpolator_m3_sys_motion_easing_standard.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/interpolator/m3_sys_motion_easing_standard.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_landingpage_7_8.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_landingpage_7_8.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_icon_item_cta_des_style1.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_icon_item_cta_des_style1.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_slider_inactive_track_color_legacy.xml.flat",
@@ -828,16 +736,8 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout/material_clock_display.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_empty_end.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_empty_end.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_onesignal_fade_in.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/anim/onesignal_fade_in.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_pop_up_style_4.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_pop_up_style_4.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_ic_right_round_white.png.flat",
@@ -850,10 +750,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_button_ripple_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_button_ripple_color.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_success_submit_dark.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_success_submit_dark.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_design_text_input_end_icon.xml.flat",
@@ -870,10 +766,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_mtrl_switch_track_decoration.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/mtrl_switch_track_decoration.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_popup_vpaid.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_popup_vpaid.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_material_personalized_color_secondary_text.xml.flat",
@@ -900,10 +792,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout/view_native_ad_medium.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_pop_up_style_3.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_pop_up_style_3.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_notification_template_part_chronometer.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/notification_template_part_chronometer.xml"
     },
@@ -924,10 +812,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/anim/m3_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_root.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_root.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_onesignal_fade_out.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/anim/onesignal_fade_out.xml"
     },
@@ -936,20 +820,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_layer_gift_color.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_view_slide_gesture.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_view_slide_gesture.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_select_dialog_singlechoice_material.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_gnt_pangle_video_large_template_view.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/gnt_pangle_video_large_template_view.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_3.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_3.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_feedback_advertise_info_background.xml.flat",
@@ -970,10 +846,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/mipmap-xxhdpi_ic_launcher_background.webp.flat",
         "source": "com.cbt.exam.browser.app-main-6:/mipmap-xxhdpi/ic_launcher_background.webp"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_6.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_6.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_checkbox_button_tint.xml.flat",
@@ -1056,10 +928,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_shadow_lefterback_titlebar_withoutnight.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_view_click_guide_1.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_view_click_guide_1.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_abc_tint_default.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/abc_tint_default.xml"
     },
@@ -1090,10 +958,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_mtrl_ic_indeterminate.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/mtrl_ic_indeterminate.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_halfscreen.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_halfscreen.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_gnt_ad_icon.xml.flat",
@@ -1228,10 +1092,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_web_white.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_mid_page_native_view_landscape.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_mid_page_native_view_landscape.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_abc_screen_content_include.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/abc_screen_content_include.xml"
     },
@@ -1260,20 +1120,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout/ime_base_split_test_activity.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_3.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_3.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_progressbar_white.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_progressbar_white.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_abc_list_divider_material.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/abc_list_divider_material.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_download_12.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_download_12.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_radiobutton_ripple_tint.xml.flat",
@@ -1286,10 +1138,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_mtrl_text_btn_text_color_selector.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/mtrl_text_btn_text_color_selector.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_download_msg_white.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_download_msg_white.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_slide_out_left.xml.flat",
@@ -1332,14 +1180,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_standard_toolbar_button_text_color_selector.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_shadow_fullscreen_top.9.png.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_shadow_fullscreen_top.9.png"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_ic_left_round_white.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_left_round_white.xml"
     },
@@ -1368,10 +1208,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_text_button_foreground_color_selector.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_landscape_2.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_landscape_2.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_mtrl_btn_stroke_color_selector.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/mtrl_btn_stroke_color_selector.xml"
     },
@@ -1380,24 +1216,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_everyone.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_form.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_form.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_multi_img_media_layout.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_multi_img_media_layout.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_button_countdown_close.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_button_countdown_close.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_abc_slide_in_bottom.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_download_msg.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_download_msg.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_tabs_ripple_color.xml.flat",
@@ -1464,10 +1288,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_ad_zoom_up.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_landingpage.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_landingpage.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_mtrl_alert_select_dialog_singlechoice.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/mtrl_alert_select_dialog_singlechoice.xml"
     },
@@ -1488,10 +1308,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/mtrl_ic_error.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_form_notice_privacy_dark.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_form_notice_privacy_dark.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_material_time_input.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/material_time_input.xml"
     },
@@ -1502,10 +1318,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_abc_screen_simple_overlay_action_mode.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_multi_img_16.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_multi_img_16.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bg_border_blue.xml.flat",
@@ -1530,10 +1342,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/raw_keep_cronet_api.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/raw/keep_cronet_api.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_4.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_4.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_modal_out.xml.flat",
@@ -1612,10 +1420,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/material_on_background_emphasis_medium.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_18.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_18.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_timepicker_time_input_stroke_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_timepicker_time_input_stroke_color.xml"
     },
@@ -1660,20 +1464,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_timepicker_secondary_text_button_text_color.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_popup_banner.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_popup_banner.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_gnt_startapp_news_template_view.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/gnt_startapp_news_template_view.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_efab_ripple_color_selector.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_efab_ripple_color_selector.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_popup_close_btn.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_popup_close_btn.xml"
+        "merged": "com.cbt.exam.browser.app-debug-4:/layout_gnt_startapp_news_template_view.xml.flat",
+        "source": "com.cbt.exam.browser.app-main-6:/layout/gnt_startapp_news_template_view.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_m3_auto_complete_simple_item.xml.flat",
@@ -1712,10 +1508,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_highlighted_text.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_2.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_2.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_activity_splash.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/activity_splash.xml"
     },
@@ -1732,10 +1524,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_navigation_rail_item_with_indicator_icon_tint.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_icon_item_style.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_icon_item_style.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_star_thick_dark.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_star_thick_dark.png"
     },
@@ -1746,10 +1534,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_ic_download.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_download.png"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_fullscreen_vpaid.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_fullscreen_vpaid.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_gnt_fan_video_small_template_view.xml.flat",
@@ -1804,16 +1588,8 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_dark_highlighted_text.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_mid_page_loading_view.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_mid_page_loading_view.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_layout_stroke.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/layout_stroke.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_pop_up_style_1.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_pop_up_style_1.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_button_foreground_color_selector.xml.flat",
@@ -1834,10 +1610,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_btn_radio_to_off_mtrl_dot_group_animation.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/anim/btn_radio_to_off_mtrl_dot_group_animation.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_mid_page_native_fallback_view_download_info_landscape.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_mid_page_native_fallback_view_download_info_landscape.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
@@ -1862,10 +1634,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color-v31_m3_ref_palette_dynamic_neutral22.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color-v31/m3_ref_palette_dynamic_neutral22.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_style_landscape_1.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_style_landscape_1.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_unmute.png.flat",
@@ -1976,10 +1744,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_default_loading_layout.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_default_loading_layout.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_hint_foreground.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_hint_foreground.xml"
     },
@@ -1988,20 +1752,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_assist_chip_icon_tint_color.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_style_landscape_3_no_gp_element.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_style_landscape_3_no_gp_element.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable__mtrl_checkbox_button_icon_unchecked_checked__1_res_0x7f080019.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/_mtrl_checkbox_button_icon_unchecked_checked__1_res_0x7f080019.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_ad_zoom_down.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_ad_zoom_down.png"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_download_9.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_download_9.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_slide.png.flat",
@@ -2016,20 +1772,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_fab_efab_foreground_color_selector.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_component_20.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_component_20.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_lefterbackicon_titlebar.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_lefterbackicon_titlebar.png"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_mtrl_navigation_bar_ripple_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/mtrl_navigation_bar_ripple_color.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_component_26.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_component_26.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_mtrl_card_lowers_interpolator.xml.flat",
@@ -2042,10 +1790,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3expressive_bottom_nav_item_icon_tint.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3expressive_bottom_nav_item_icon_tint.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_view_click_guide_landscape_3.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_view_click_guide_landscape_3.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_abc_activity_chooser_view.xml.flat",
@@ -2062,14 +1806,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_assist_chip_stroke_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_assist_chip_stroke_color.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_style_landscape_4.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_style_landscape_4.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_component_19.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_component_19.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_gnt_ad_manager_video_large_template_view.xml.flat",
@@ -2098,10 +1834,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_slider_thumb_color_legacy.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_slider_thumb_color_legacy.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_reward.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_reward.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/raw_firebase_crashlytics_keep.xml.flat",
@@ -2176,10 +1908,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_star.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_component_25.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_component_25.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_custom_dialog.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/custom_dialog.xml"
     },
@@ -2218,10 +1946,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_landing_top_bar_bg.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_landing_top_bar_bg.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_left_material_31.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_left_material_31.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/animator_m3_card_elevated_state_list_anim.xml.flat",
@@ -2280,10 +2004,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_component_24.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_component_24.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_navigation_item_ripple_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_navigation_item_ripple_color.xml"
     },
@@ -2298,10 +2018,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_linear_indeterminate_line1_tail_interpolator.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/anim/linear_indeterminate_line1_tail_interpolator.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_form_fill_question_dark.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_form_fill_question_dark.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color-night_material_timepicker_clockface.xml.flat",
@@ -2324,24 +2040,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/material_slider_active_track_color.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_style_landscape_3.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_style_landscape_3.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_icon_item_cta_style2.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_icon_item_cta_style2.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable__mtrl_switch_thumb_unchecked_checked__0_res_0x7f080026.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/_mtrl_switch_thumb_unchecked_checked__0_res_0x7f080026.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bg_circle.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bg_circle.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_space.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_space.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_abc_btn_radio_material_anim.xml.flat",
@@ -2360,20 +2064,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/color-night/material_timepicker_modebutton_tint.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_form_content.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_form_content.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_mtrl_checkbox_button_unchecked_checked.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/mtrl_checkbox_button_unchecked_checked.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_m3_side_sheet_enter_from_left.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/anim/m3_side_sheet_enter_from_left.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_land_material_31_32.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_land_material_31_32.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/font_inter.xml.flat",
@@ -2398,10 +2094,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_m3_bottom_sheet_slide_out.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/anim/m3_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_item_click_guide.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_item_click_guide.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_mtrl_switch_track_tint.xml.flat",
@@ -2430,10 +2122,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_mtrl_bottomsheet_drag_handle.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/mtrl_bottomsheet_drag_handle.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_component_22.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_component_22.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_navigation_bar_ripple_color_selector.xml.flat",
@@ -2478,10 +2166,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/animator_m3_appbar_state_list_animator.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/animator/m3_appbar_state_list_animator.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_download_7.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_download_7.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_white_lefterbackicon_titlebar.png.flat",
@@ -2540,10 +2224,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_5_card_widget.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_5_card_widget.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_banner_button_bg_rectangle_blue.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_banner_button_bg_rectangle_blue.xml"
     },
@@ -2560,20 +2240,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/mtrl_checkbox_button.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_download_6.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_download_6.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_material_on_primary_emphasis_medium.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/material_on_primary_emphasis_medium.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_ic_inputurl.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/ic_inputurl.png"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_percent_warning.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_percent_warning.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_warning_circle.xml.flat",
@@ -2612,10 +2284,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_3_multi_img.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_3_multi_img.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout-sw720dp_activity_scanner.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout-sw720dp/activity_scanner.xml"
     },
@@ -2634,10 +2302,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/animator_m3_elevated_chip_state_list_anim.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/animator/m3_elevated_chip_state_list_anim.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_native_center.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_native_center.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color-v31_m3_dynamic_dark_primary_text_disable_only.xml.flat",
@@ -2684,16 +2348,8 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_refreshing_video_textpage_pressed.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_item_arrow.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_item_arrow.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_abc_dialog_material_background.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_component_23.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_component_23.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_avd_hide_password.xml.flat",
@@ -2726,10 +2382,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_dialog_timeisup.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/dialog_timeisup.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_percent_warning_landscape.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_percent_warning_landscape.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_abc_action_bar_up_container.xml.flat",
@@ -2808,10 +2460,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/test_level_drawable.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_view_click_guide_3.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_view_click_guide_3.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
     },
@@ -2838,10 +2486,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_ic_launcher_background.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_ad_mark_top_left.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_ad_mark_top_left.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color-v31_m3_ref_palette_dynamic_neutral_variant96.xml.flat",
@@ -2912,14 +2556,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/mtrl_switch_thumb_unchecked_checked.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_word_icon_first_page.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_word_icon_first_page.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_endpage1.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_endpage1.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_m3_split_button_chevron_avd.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/m3_split_button_chevron_avd.xml"
     },
@@ -2952,10 +2588,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_word_icon.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_word_icon.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_mtrl_btn_text_btn_ripple_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/mtrl_btn_text_btn_ripple_color.xml"
     },
@@ -2978,10 +2610,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_dislike_icon.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_dislike_icon.png"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_style_landscape_4_full_media.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_style_landscape_4_full_media.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_tt_button_back.xml.flat",
@@ -3034,10 +2662,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_m3_alert_dialog.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/m3_alert_dialog.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_19_29.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_19_29.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_titlebar_close_drawable.png.flat",
@@ -3128,10 +2752,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_navigation_bar_item_with_indicator_label_tint.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_ad_label.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_ad_label.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_slider_active_tick_marks_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_slider_active_tick_marks_color.xml"
     },
@@ -3184,14 +2804,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_button_bg_rectangle_blue_2.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_14_15.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_14_15.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_native_top.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_native_top.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color-night_material_timepicker_button_stroke.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color-night/material_timepicker_button_stroke.xml"
     },
@@ -3200,20 +2812,8 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout/material_textinput_timepicker.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_5.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_5.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_optionview_feedback.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_optionview_feedback.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_tt_dislike_animation_show.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/anim/tt_dislike_animation_show.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_endpage_item_slide.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_endpage_item_slide.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_abc_alert_dialog_material.xml.flat",
@@ -3230,10 +2830,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_splash_endpage_bg.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_splash_endpage_bg.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_landscape.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_landscape.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_skip_btn.png.flat",
@@ -3256,10 +2852,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_vibrant_toolbar_icon_button_icon_color_selector.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_3_item_cta.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_3_item_cta.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_interaction_slide_line.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_interaction_slide_line.png"
     },
@@ -3268,20 +2860,8 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout/mtrl_alert_dialog.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_native_banner_small.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_native_banner_small.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_icon_item_cta_style1.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_icon_item_cta_style1.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_abc_btn_check_material.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/abc_btn_check_material.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_8.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_8.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_new_play_video.png.flat",
@@ -3290,10 +2870,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_dark_default_color_secondary_text.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_dark_default_color_secondary_text.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_success_submit.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_success_submit.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_ripple_effect.xml.flat",
@@ -3344,20 +2920,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_arrow_down.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_more.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_more.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_style_landscape_2.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_style_landscape_2.xml"
+        "merged": "com.cbt.exam.browser.app-debug-4:/color-v31_m3_dynamic_dark_highlighted_text.xml.flat",
+        "source": "com.cbt.exam.browser.app-main-6:/color-v31/m3_dynamic_dark_highlighted_text.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_ic_mtrl_checked_circle.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/ic_mtrl_checked_circle.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/color-v31_m3_dynamic_dark_highlighted_text.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/color-v31/m3_dynamic_dark_highlighted_text.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_btn_radio_to_on_mtrl_ring_outer_animation.xml.flat",
@@ -3374,10 +2942,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_user.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_user.png"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_gesture_slide.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_gesture_slide.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_confirm.jpg.flat",
@@ -3404,10 +2968,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/color-v31/m3_dynamic_dark_default_color_secondary_text.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_banner_placeholder_img.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_banner_placeholder_img.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_standard_toolbar_icon_button_icon_color_selector.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_standard_toolbar_icon_button_icon_color_selector.xml"
     },
@@ -3426,10 +2986,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_ic_info_popup.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_info_popup.png"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_pop_up_style_2.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_pop_up_style_2.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_gray_button_background.xml.flat",
@@ -3464,14 +3020,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_form_layout.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_form_layout.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_view_click_guide_landscape_2.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_view_click_guide_landscape_2.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_mtrl_checkbox_button_icon_unchecked_indeterminate.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/mtrl_checkbox_button_icon_unchecked_indeterminate.xml"
     },
@@ -3484,16 +3032,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/mtrl_on_primary_text_btn_text_color_selector.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/drawable_ic_baseline_cloud_off_24.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/drawable/ic_baseline_cloud_off_24.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_ic_safe.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_safe.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_pop_up_style_5.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_pop_up_style_5.xml"
+        "merged": "com.cbt.exam.browser.app-debug-4:/drawable_ic_baseline_cloud_off_24.xml.flat",
+        "source": "com.cbt.exam.browser.app-main-6:/drawable/ic_baseline_cloud_off_24.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_ic_m3_chip_close.xml.flat",
@@ -3556,14 +3100,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_star_half_white.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_bottom_card.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_bottom_card.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_dialog_reward_retain.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_dialog_reward_retain.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_double_video_small_play.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_double_video_small_play.png"
     },
@@ -3596,24 +3132,16 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/mtrl_switch_thumb_unchecked.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_form_content_dark.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_form_content_dark.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_icon_button_icon_color_selector.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_icon_button_icon_color_selector.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_form_icon_back_up.png.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_form_icon_back_up.png"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_slider_active_track_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_slider_active_track_color.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_banner.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_banner.xml"
+        "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_form_icon_back_up.png.flat",
+        "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_form_icon_back_up.png"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_ic_web_forward.xml.flat",
@@ -3676,16 +3204,8 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_navigation_bar_item_with_indicator_icon_tint.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_form_select_question.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_form_select_question.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_ic_baseline_signal_cellular_alt_24.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/ic_baseline_signal_cellular_alt_24.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_item_splash_countdown_bg.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_item_splash_countdown_bg.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_ic_web_refresh.png.flat",
@@ -3694,10 +3214,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_error_circle.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/error_circle.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_download_10.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_download_10.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_mtrl_calendar_days_of_week.xml.flat",
@@ -3716,10 +3232,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_item_cta.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_item_cta.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/xml_network_security_config.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/xml/network_security_config.xml"
     },
@@ -3732,24 +3244,8 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_timepicker_display_background_color.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_item_slide.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_item_slide.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout-sw600dp_modal.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout-sw600dp/modal.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_mid_page_native_fallback_view_landscape.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_mid_page_native_fallback_view_landscape.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_pop_up_style_6.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_pop_up_style_6.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_item_inter_countdown_bg.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_item_inter_countdown_bg.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
@@ -3828,20 +3324,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_close5.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_label_layout.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_label_layout.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_shrink_video.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable-xhdpi/tt_shrink_video.png"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_mtrl_chip_text_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/mtrl_chip_text_color.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_style_landscape_2_full_media.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_style_landscape_2_full_media.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_design_bottom_sheet_dialog.xml.flat",
@@ -3854,10 +3342,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color-v31_m3_ref_palette_dynamic_neutral92.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color-v31/m3_ref_palette_dynamic_neutral92.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_gesture_zoom.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_gesture_zoom.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_offline_dialog_default_icon_42dp.xml.flat",
@@ -3900,10 +3384,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/ad_mob_rounded_button_shape.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_4.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_4.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_dark_primary_text_disable_only.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_dark_primary_text_disable_only.xml"
     },
@@ -3926,10 +3406,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_abc_primary_text_disable_only_material_light.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_space_black.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_space_black.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color-v31_m3_dynamic_default_color_secondary_text.xml.flat",
@@ -3970,10 +3446,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_ic_download_box_white.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_download_box_white.png"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_multi_img_15.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_multi_img_15.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_abc_search_view.xml.flat",
@@ -4036,16 +3508,8 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout/onesignal_bgimage_notif_layout.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_icon_item_cta_des_style2.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_icon_item_cta_des_style2.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_abc_popup_exit.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/anim/abc_popup_exit.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_fullscreen_interaction.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_fullscreen_interaction.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_abc_alert_dialog_button_bar_material.xml.flat",
@@ -4062,10 +3526,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_mtrl_navigation_rail_item.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/mtrl_navigation_rail_item.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_fullscreen.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_fullscreen.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_view_native_ad_label.xml.flat",
@@ -4104,10 +3564,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_timepicker_button_background_color.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_right_material_32.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_right_material_32.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_mtrl_calendar_month_labeled.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/mtrl_calendar_month_labeled.xml"
     },
@@ -4134,10 +3590,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_design_layout_snackbar.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_form_fill_question.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_form_fill_question.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_chip_background_color.xml.flat",
@@ -4224,10 +3676,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout-sw600dp-land/activity_main.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_form_select_question_dark.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_form_select_question_dark.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_mtrl_on_surface_ripple_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/mtrl_on_surface_ripple_color.xml"
     },
@@ -4262,10 +3710,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_m3_avd_hide_password.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/m3_avd_hide_password.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_2.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_2.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_offline_dialog_background.xml.flat",
@@ -4304,10 +3748,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_multi_img_14.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_multi_img_14.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable__mtrl_checkbox_button_icon_unchecked_indeterminate__2_res_0x7f08001d.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/_mtrl_checkbox_button_icon_unchecked_indeterminate__2_res_0x7f08001d.xml"
     },
@@ -4330,10 +3770,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_gnt_fan_large_template_view.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/gnt_fan_large_template_view.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_endpage_item_flash.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_endpage_item_flash.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_banner_advertiser_background.xml.flat",
@@ -4368,10 +3804,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_close_gray.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_mid_page_loading_view_landscape.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_mid_page_loading_view_landscape.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_switch_thumb_material_light.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/switch_thumb_material_light.xml"
     },
@@ -4400,20 +3832,12 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/ic_check.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_fullscreen_immersive.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_fullscreen_immersive.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_abc_ratingbar_indicator_material.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_card_ripple_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_card_ripple_color.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_view_click_guide_2.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_view_click_guide_2.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
@@ -4442,10 +3866,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_ic_outline_settings_24.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/ic_outline_settings_24.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_endpage1_slide.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_endpage1_slide.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_ic_error_outline.xml.flat",
@@ -4498,10 +3918,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_web_loading_progress_bar.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_web_loading_progress_bar.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_abc_primary_text_disable_only_material_dark.xml.flat",
@@ -4580,14 +3996,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_halfscreen_vpaid.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_halfscreen_vpaid.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_form_notice_privacy.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_form_notice_privacy.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_domain_left_drawable.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_domain_left_drawable.xml"
     },
@@ -4614,10 +4022,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_abc_action_mode_close_item_material.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_form_question.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_form_question.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout-sw600dp_mtrl_layout_snackbar.xml.flat",
@@ -4648,10 +4052,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/admob_close_button_black_circle_white_cross.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_7.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_7.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_baseline_sync_lock_24.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/baseline_sync_lock_24.xml"
     },
@@ -4662,10 +4062,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_success_bow.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/success_bow.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_view_click_guide.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_view_click_guide.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable-xhdpi_tt_refreshing_video_textpage_normal.png.flat",
@@ -4702,10 +4098,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_popupmenu_overlay_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_popupmenu_overlay_color.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_item_cta_bg.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_item_cta_bg.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_collapse.xml.flat",
@@ -4760,10 +4152,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/layout-sw600dp-land/activity_create_config.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_multi_img_item_layout.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_multi_img_item_layout.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/interpolator_m3_sys_motion_easing_standard_decelerate.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/interpolator/m3_sys_motion_easing_standard_decelerate.xml"
     },
@@ -4806,10 +4194,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_material_slider_active_tick_marks_color.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/material_slider_active_tick_marks_color.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_endpage_item_cta.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_endpage_item_cta.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_abc_item_background_holo_light.xml.flat",
@@ -4936,16 +4320,8 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/m3_button_ripple_color_selector.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_item_ripple.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_item_ripple.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_splash_endpage_slide_bg.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_splash_endpage_slide_bg.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_popup.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_popup.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable__avd_show_password__0_res_0x7f080003.xml.flat",
@@ -4988,10 +4364,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_media_pause.png"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_rich_video_end_9.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_rich_video_end_9.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_mtrl_navigation_bar_item_background.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/mtrl_navigation_bar_item_background.xml"
     },
@@ -5010,10 +4382,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_btn_radio_to_off_mtrl_ring_outer_path_animation.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_ad_warning_bottom.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_ad_warning_bottom.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_mtrl_search_view.xml.flat",
@@ -5048,10 +4416,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/_mtrl_switch_thumb_checked_pressed__0_res_0x7f080021.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_item_flash.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_item_flash.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_design_error.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/color/design_error.xml"
     },
@@ -5062,10 +4426,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_common_google_signin_btn_icon_light.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_fullscreen_interaction_immersive.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_fullscreen_interaction_immersive.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_abc_cascading_menu_item_layout.xml.flat",
@@ -5116,14 +4476,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/drawable/baseline_warning_amber_24.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_activity_interstitial_sab.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_activity_interstitial_sab.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_endpage_item_click_guide.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_endpage_item_click_guide.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout_abc_select_dialog_material.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/layout/abc_select_dialog_material.xml"
     },
@@ -5158,10 +4510,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_ic_star_normal.png.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_ic_star_normal.png"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_form_question_dark.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_form_question_dark.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_abc_popup_enter.xml.flat",
@@ -5264,10 +4612,6 @@
         "source": "com.cbt.exam.browser.app-main-6:/color/material_personalized_primary_text_disable_only.xml"
     },
     {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_layout_interstitial_icon_view_flow.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_layout_interstitial_icon_view_flow.xml"
-    },
-    {
         "merged": "com.cbt.exam.browser.app-debug-4:/anim_abc_grow_fade_in_from_bottom.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/anim/abc_grow_fade_in_from_bottom.xml"
     },
@@ -5290,10 +4634,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bg_circle2.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bg_circle2.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_item_interaction_horizontal.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_item_interaction_horizontal.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/color_m3_floating_toolbar_vibrant_icon_button_container_color_selector.xml.flat",
@@ -5378,10 +4718,6 @@
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/drawable_bigo_ad_tag_background.xml.flat",
         "source": "com.cbt.exam.browser.app-main-6:/drawable/bigo_ad_tag_background.xml"
-    },
-    {
-        "merged": "com.cbt.exam.browser.app-debug-4:/layout_bigo_ad_splash_style_halfscreen_interaction.xml.flat",
-        "source": "com.cbt.exam.browser.app-main-6:/layout/bigo_ad_splash_style_halfscreen_interaction.xml"
     },
     {
         "merged": "com.cbt.exam.browser.app-debug-4:/layout-land_activity_create_config.xml.flat",
